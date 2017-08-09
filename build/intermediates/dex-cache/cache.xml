@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="F:\yut\you4kFree\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8c28d445c9ccb3551e5db791aee2217cc5af9c67">
-        <dex dex="F:\yut\you4kFree\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bfa0670e49aab51cd3524473ffe2719808230241\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="F:\yut\patayatvok\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
         jumboMode="true"
         optimize="true"
@@ -27,15 +18,6 @@
         revision="25.0.0"
         sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
         <dex dex="F:\yut\patayatvok\app\build\intermediates\pre-dexed\release\NineOldAndroid-2.4.0_ad74c182acd18639d9e503c9920c40b65756a523.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\yut\you4kFree\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="F:\yut\you4kFree\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f589df2473489585abe84d37371931c04a0d9e9f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -228,15 +210,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="F:\yut\you4kFree\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
-        <dex dex="F:\yut\you4kFree\app\build\intermediates\transforms\dex\debug\folders\1000\8\picasso-2.3.3_11759c20360d868b35352f9c06dab45b0284a4b0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="F:\yut\you4k\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
         jumboMode="true"
         optimize="true"
@@ -252,15 +225,6 @@
         revision="25.0.0"
         sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
         <dex dex="F:\yut\patayatvok\app\build\intermediates\transforms\dex\debug\folders\1000\8\picasso-2.3.3_6862a2720ac71e17a099030e8f621a1fcde4a893\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\yut\you4kFree\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
-        <dex dex="F:\yut\you4kFree\app\build\intermediates\transforms\dex\debug\folders\1000\8\NineOldAndroid-2.4.0_af02f6f877f61731f5a6b08a6aa6aff00755ed71\classes.dex" />
     </item>
     <item
         is-multidex="false"
