@@ -1,0 +1,5 @@
+{
+	"versionCode":1, 
+	"versionName":"1", 
+	"downloadURL":"http://7topup.com/iLike4K/pattayaTV21.apk"
+}

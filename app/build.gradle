@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+
+        you4k {
+            keyAlias 'you4k'
+            keyPassword '555555'
+            storeFile file('F:/myproject/patayatvok_19may1/jks/you4k.jks')
+            storePassword '555555'
+        }
+    }
+    compileSdkVersion 19
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.you4k.tv"
+        minSdkVersion 15
+        targetSdkVersion 19
+        versionCode 4
+        versionName '4.0'
+        signingConfig signingConfigs.you4k
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            //proguardFiles getDefaultProguardFile('proguard-android.txt')
+            renderscriptDebuggable false
+            signingConfig signingConfigs.you4k
+        }
+        debug {
+            minifyEnabled false
+            renderscriptDebuggable true
+            debuggable true
+            signingConfig signingConfigs.you4k
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    productFlavors {
+
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.github.bumptech.glide:glide:3.5.2'
+    compile 'com.android.support:support-v4:19.0.0'
+    compile project(':librarySlider')
+}

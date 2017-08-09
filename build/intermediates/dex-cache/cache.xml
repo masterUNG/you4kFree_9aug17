@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\yut\you4kFree\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8c28d445c9ccb3551e5db791aee2217cc5af9c67">
+        <dex dex="F:\yut\you4kFree\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bfa0670e49aab51cd3524473ffe2719808230241\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\yut\patayatvok\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="F:\yut\patayatvok\app\build\intermediates\transforms\dex\debug\folders\1000\8\NineOldAndroid-2.4.0_ad74c182acd18639d9e503c9920c40b65756a523\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\yut\patayatvok\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="F:\yut\patayatvok\app\build\intermediates\pre-dexed\release\NineOldAndroid-2.4.0_ad74c182acd18639d9e503c9920c40b65756a523.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\yut\you4kFree\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\yut\you4kFree\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f589df2473489585abe84d37371931c04a0d9e9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\APK2\iLike4K_v13\iLike4K_v13\app\build\intermediates\incremental-classes\goldplayer\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b7d0aa7a31ce58e86b2258c762c085ac526101ab">
+        <dex dex="C:\APK2\iLike4K_v13\iLike4K_v13\app\build\intermediates\transforms\dex\goldplayer\debug\folders\1000\10\instant-run-bootstrap_92c027852a10cf87b8b5c360aba1549ff956af6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\APK3\PATAYATV\app\build\intermediates\exploded-aar\PATAYATV\librarySlider\unspecified\jars\libs\NineOldAndroid-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="C:\APK3\PATAYATV\app\build\intermediates\transforms\dex\goldplayer\debug\folders\1000\8\NineOldAndroid-2.4.0_ef49a4a2d991b2e1f4e9fd4258f898223e791924\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\yut\you4k\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="F:\yut\you4k\app\build\intermediates\transforms\dex\debug\folders\1000\8\NineOldAndroid-2.4.0_c5146a97864f77bb6250ab7bed9333330f93b768\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\APK2\iLike4K_v13\iLike4K_v13\app\build\intermediates\incremental-runtime-classes\goldplayer\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2703cbf53fad204624731d0f366816153810206a">
+        <dex dex="C:\APK2\iLike4K_v13\iLike4K_v13\app\build\intermediates\transforms\dex\goldplayer\debug\folders\1000\10\instant-run_ea4c3682a3c75d869ffdbc0114875e6a023887ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\APK3\PATAYATV\app\build\intermediates\incremental-runtime-classes\goldplayer\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ebf873d99e202af240909f17b3d85f2999c6cd46">
+        <dex dex="C:\APK3\PATAYATV\app\build\intermediates\transforms\dex\goldplayer\debug\folders\1000\10\instant-run_081d122e9993e4b34a0e08b454f405d90851e631\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\yut\you4kFree\librarySlider\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2c5f76e7a6252220ceccb1c5b63d664ba52b078b">
+        <dex dex="F:\yut\you4kFree\app\build\intermediates\pre-dexed\debug\classes_e33338ba4f378a3e02d79e7f499dc77074bd8585.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\yut\patayatvok\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\yut\patayatvok\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7a696ee41955f1787cc00533b8b8df3e99816385\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\yut\patayatvok\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9a3a6527650d7b7d5a538ecd8a5140c6c7537662">
+        <dex dex="F:\yut\patayatvok\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_baf8533225444c9cbcef0c0044f76e8d8589b6fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\APK2\iLike4K_v13\iLike4K_v13\app\build\intermediates\exploded-aar\iLike4K_v13\librarySlider\unspecified\jars\libs\NineOldAndroid-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="C:\APK2\iLike4K_v13\iLike4K_v13\app\build\intermediates\transforms\dex\goldplayer\debug\folders\1000\8\NineOldAndroid-2.4.0_628aaf18d4dd61d1b6d1539029d1ba4ef62e300f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\yut\you4kFree\universal-image-loader-1.9.5\universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="F:\yut\you4kFree\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_30860a14d42ccd6b9d64f44c4f5daaff6ababfd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\yut\you4kFree\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="F:\yut\you4kFree\app\build\intermediates\pre-dexed\debug\NineOldAndroid-2.4.0_af02f6f877f61731f5a6b08a6aa6aff00755ed71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\yut\patayatvok\librarySlider\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2c5f76e7a6252220ceccb1c5b63d664ba52b078b">
+        <dex dex="F:\yut\patayatvok\app\build\intermediates\pre-dexed\release\classes_e39df5cccfbc0da256d6687443860e4052d9044c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\APK3\PATAYATV\app\build\intermediates\exploded-aar\PATAYATV\librarySlider\unspecified\jars\libs\picasso-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
+        <dex dex="C:\APK3\PATAYATV\app\build\intermediates\transforms\dex\goldplayer\debug\folders\1000\8\picasso-2.3.3_5c33572d2190bb8434e21b55c1379be9c7fb59aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\yut\you4k\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\yut\you4k\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_06f13e049b8cfd6393eb4e7041c956191a74a896\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ubc15\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\APK2\iLike4K_v13\iLike4K_v13\app\build\intermediates\transforms\dex\goldplayer\debug\folders\1000\10\support-v4-19.1.0_f4292e0d0952dc42a8398aaef901f1e6508e5c51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ubc15\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.5.2\ecf534dba3a8446ce84cbb797d314763be212a68\glide-3.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="C:\APK2\iLike4K_v13\iLike4K_v13\app\build\intermediates\transforms\dex\goldplayer\debug\folders\1000\10\glide-3.5.2_6089f463e705b80525d9f5dd4bdc1a98a2e13774\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\yut\you4k\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f2f1c387efcc7c8638d0db2f03343f43b8bb45b">
+        <dex dex="F:\yut\you4k\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3ff18ae5011af94d2cc3daa4b57f9d09d77b1f3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\yut\patayatvok\universal-image-loader-1.9.5\universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="F:\yut\patayatvok\app\build\intermediates\pre-dexed\release\universal-image-loader-1.9.5_b94f9ff53589b801638602a32e384efa8dc22493.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\APK2\iLike4K_v13\iLike4K_v13\app\build\intermediates\exploded-aar\iLike4K_v13\librarySlider\unspecified\jars\libs\picasso-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
+        <dex dex="C:\APK2\iLike4K_v13\iLike4K_v13\app\build\intermediates\transforms\dex\goldplayer\debug\folders\1000\8\picasso-2.3.3_6c3cfc5aa0f794c8cce35c165e2aab1a6875e637\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\yut\you4kFree\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
+        <dex dex="F:\yut\you4kFree\app\build\intermediates\pre-dexed\debug\picasso-2.3.3_11759c20360d868b35352f9c06dab45b0284a4b0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\APK3\PATAYATV\app\build\intermediates\incremental-classes\goldplayer\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8bec67ea8250d5d78f1451a57e37889a1722dc2b">
+        <dex dex="C:\APK3\PATAYATV\app\build\intermediates\transforms\dex\goldplayer\debug\folders\1000\10\instant-run-bootstrap_f5c77b437cbcae536acf2f0d1617d7ccdd09fe0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\yut\you4kFree\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
+        <dex dex="F:\yut\you4kFree\app\build\intermediates\transforms\dex\debug\folders\1000\8\picasso-2.3.3_11759c20360d868b35352f9c06dab45b0284a4b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\yut\you4k\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
+        <dex dex="F:\yut\you4k\app\build\intermediates\transforms\dex\debug\folders\1000\8\picasso-2.3.3_816c4dda7bc76a467702f952576d9c72ca999f12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\yut\patayatvok\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
+        <dex dex="F:\yut\patayatvok\app\build\intermediates\transforms\dex\debug\folders\1000\8\picasso-2.3.3_6862a2720ac71e17a099030e8f621a1fcde4a893\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\yut\you4kFree\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="F:\yut\you4kFree\app\build\intermediates\transforms\dex\debug\folders\1000\8\NineOldAndroid-2.4.0_af02f6f877f61731f5a6b08a6aa6aff00755ed71\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\yut\patayatvok\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
+        <dex dex="F:\yut\patayatvok\app\build\intermediates\pre-dexed\release\picasso-2.3.3_6862a2720ac71e17a099030e8f621a1fcde4a893.jar" />
+    </item>
+
+</items>

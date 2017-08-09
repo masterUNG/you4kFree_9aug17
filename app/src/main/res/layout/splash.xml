@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_image"
+        android:id="@+id/lin_lay1"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="269dp"
+            android:layout_height="111dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/splash_logo"
+            android:foregroundGravity="center"
+            android:layout_weight="0.21" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/versionName"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/version_name"
+            android:textColor="#3cf903"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:singleLine="false"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lin_lay"
+            android:layout_gravity="center_horizontal"
+            android:text="กำลังเข้าสู่ระบบ"
+            android:gravity="center_horizontal"
+            android:textIsSelectable="false"
+            android:singleLine="false"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true"
+            android:typeface="normal"
+            android:textColor="#3cf903"
+            android:textSize="35sp" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

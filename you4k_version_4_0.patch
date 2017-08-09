@@ -1,0 +1,3287 @@
+Index: app/src/main/res/layout-small/activity_news.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-small/activity_news.xml	(date 1498966998000)
++++ app/src/main/res/layout-small/activity_news.xml	(revision )
+@@ -7,7 +7,7 @@
+     android:padding="10dp"
+     android:weightSum="3"
+     android:background="#000000"
+-    tools:context="com.royle.beartv2.NewsActivity" >
++    tools:context="com.royle.play4k.NewsActivity" >
+ 
+     <ImageView
+         android:id="@+id/img_news"
+Index: app/src/main/res/layout/activity_web_view_pay_pal.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_web_view_pay_pal.xml	(date 1498966998000)
++++ app/src/main/res/layout/activity_web_view_pay_pal.xml	(revision )
+@@ -3,7 +3,7 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    tools:context="com.royle.beartv2.WebViewPayPalActivity">
++    tools:context="com.royle.play4k.WebViewPayPalActivity">
+ 
+     <WebView
+         android:layout_width="match_parent"
+Index: app/src/main/java/user/RegisterActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/user/RegisterActivity.java	(date 1498966998000)
++++ app/src/main/java/user/RegisterActivity.java	(revision )
+@@ -13,8 +13,8 @@
+ import android.widget.TextView;
+ import android.widget.Toast;
+ 
+-import com.royle.beartv2.MainActivity;
+-import com.royle.beartv2.R;
++import com.royle.play4k.MainActivity;
++import com.royle.play4k.R;
+ 
+ import org.apache.http.NameValuePair;
+ import org.apache.http.message.BasicNameValuePair;
+Index: app/src/main/res/layout-small/activity_download.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-small/activity_download.xml	(date 1498966998000)
++++ app/src/main/res/layout-small/activity_download.xml	(revision )
+@@ -7,7 +7,7 @@
+ android:paddingRight="@dimen/activity_horizontal_margin"
+ android:paddingTop="@dimen/activity_vertical_margin"
+ android:background="#4D000000"
+-tools:context="com.royle.beartv2.DownloadActivity">
++tools:context="com.royle.play4k.DownloadActivity">
+ 
+ <LinearLayout
+     android:layout_width="match_parent"
+Index: app/src/main/java/movie/MovieCategoryAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/movie/MovieCategoryAdapter.java	(date 1498966998000)
++++ app/src/main/java/movie/MovieCategoryAdapter.java	(revision )
+@@ -16,7 +16,7 @@
+ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
+ import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/app.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/app.iml	(date 1498966998000)
++++ app/app.iml	(revision )
+@@ -62,13 +62,6 @@
+       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
+       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+@@ -76,6 +69,13 @@
+       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
+@@ -99,6 +99,7 @@
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
+       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
++      <excludeFolder url="file://$MODULE_DIR$/build/reports" />
+       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
+     </content>
+     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
+\ No newline at end of file
+Index: app/src/main/res/menu/ebook.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/ebook.xml	(date 1498966998000)
++++ app/src/main/res/menu/ebook.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.EbookActivity" >
++    tools:context="com.royle.play4k.EbookActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/src/main/res/menu/movie_detail.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/movie_detail.xml	(date 1498966998000)
++++ app/src/main/res/menu/movie_detail.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.MovieDetailActivity" >
++    tools:context="com.royle.play4k.MovieDetailActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/src/main/res/layout-large/activity_web_view_pay_pal.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-large/activity_web_view_pay_pal.xml	(date 1498966998000)
++++ app/src/main/res/layout-large/activity_web_view_pay_pal.xml	(revision )
+@@ -3,7 +3,7 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    tools:context="com.royle.beartv2.WebViewPayPalActivity">
++    tools:context="com.royle.play4k.WebViewPayPalActivity">
+ 
+     <WebView
+         android:layout_width="match_parent"
+Index: app/src/main/java/movie/MovieCategoryActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/movie/MovieCategoryActivity.java	(date 1498966998000)
++++ app/src/main/java/movie/MovieCategoryActivity.java	(revision )
+@@ -15,8 +15,8 @@
+ import android.widget.ImageButton;
+ import android.widget.TextView;
+ 
+-import com.royle.beartv2.R;
+-import com.royle.beartv2.SearchActivity;
++import com.royle.play4k.R;
++import com.royle.play4k.SearchActivity;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/java/user/MailActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/user/MailActivity.java	(date 1498966998000)
++++ app/src/main/java/user/MailActivity.java	(revision )
+@@ -6,7 +6,7 @@
+ import android.webkit.WebSettings;
+ import android.webkit.WebView;
+ 
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ public class MailActivity extends Activity {
+ 
+Index: app/src/main/res/menu/movie.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/movie.xml	(date 1498966998000)
++++ app/src/main/res/menu/movie.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.MovieActivity" >
++    tools:context="com.royle.play4k.MovieActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/src/main/res/menu/news.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/news.xml	(date 1498966998000)
++++ app/src/main/res/menu/news.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.NewsActivity" >
++    tools:context="com.royle.play4k.NewsActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/src/main/java/ebook/EbookAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/ebook/EbookAdapter.java	(date 1498966998000)
++++ app/src/main/java/ebook/EbookAdapter.java	(revision )
+@@ -16,7 +16,7 @@
+ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/java/iptv/IpTvAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/iptv/IpTvAdapter.java	(date 1498966998000)
++++ app/src/main/java/iptv/IpTvAdapter.java	(revision )
+@@ -16,7 +16,7 @@
+ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/res/menu/search.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/search.xml	(date 1498966998000)
++++ app/src/main/res/menu/search.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.SearchActivity" >
++    tools:context="com.royle.play4k.SearchActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/src/main/res/layout-small/activity_web_view_pay_pal.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-small/activity_web_view_pay_pal.xml	(date 1498966998000)
++++ app/src/main/res/layout-small/activity_web_view_pay_pal.xml	(revision )
+@@ -3,7 +3,7 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    tools:context="com.royle.beartv2.WebViewPayPalActivity">
++    tools:context="com.royle.play4k.WebViewPayPalActivity">
+ 
+     <WebView
+         android:layout_width="match_parent"
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(date 1498966998000)
++++ app/src/main/res/layout/activity_main.xml	(revision )
+@@ -3,7 +3,7 @@
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@android:color/black"
+-    tools:context="com.royle.beartv2.MainActivity" >
++    tools:context="com.royle.play4k.MainActivity" >
+ 
+     <LinearLayout
+         android:id="@+id/linearLayout1"
+\ No newline at end of file
+Index: app/src/main/res/menu/web_view_ebook.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/web_view_ebook.xml	(date 1498966998000)
++++ app/src/main/res/menu/web_view_ebook.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.WebViewEbookActivity" >
++    tools:context="com.royle.play4k.WebViewEbookActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/src/main/res/menu/refill.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/refill.xml	(date 1498966998000)
++++ app/src/main/res/menu/refill.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.RefillActivity" >
++    tools:context="com.royle.play4k.RefillActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: patayatvok_3JULY_3.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- patayatvok_3JULY_3.iml	(revision )
++++ patayatvok_3JULY_3.iml	(revision )
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module external.linked.project.id="patayatvok_3JULY_3" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
++  <component name="FacetManager">
++    <facet type="java-gradle" name="Java-Gradle">
++      <configuration>
++        <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/build" />
++        <option name="BUILDABLE" value="false" />
++      </configuration>
++    </facet>
++  </component>
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: app/src/main/java/com/royle/beartv2/Autoupdater.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/Autoupdater.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/Autoupdater.java	(revision )
+@@ -1,25 +1,33 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ 
+ import android.content.Context;
+ import android.content.Intent;
+-import android.content.pm.*;
++import android.content.pm.PackageInfo;
++import android.content.pm.PackageManager;
+ import android.net.Uri;
+ import android.os.AsyncTask;
+ import android.os.Environment;
+ import android.util.Log;
+ 
+-import org.json.*;
++import org.json.JSONException;
++import org.json.JSONObject;
+ 
+-import java.io.*;
++import java.io.BufferedReader;
++import java.io.File;
++import java.io.FileOutputStream;
++import java.io.IOException;
++import java.io.InputStream;
++import java.io.InputStreamReader;
+ import java.net.HttpURLConnection;
+ import java.net.URL;
++
+ import meklib.MCrypt;
+ 
+ /**
+  * Created by Naifun on 1/2/2559.
+  */
+-public class Autoupdater{
++public class Autoupdater {
+ 
+ 
+     private Context context;
+@@ -38,7 +46,7 @@
+      }
+      *
+      */
+-    private static final String INFO_FILE = "http://7topup.com/iLike4K/Version.txt";
++    private static final String INFO_FILE = "http://7topup.com/you4k/Version.txt";
+ 
+     /**
+      * The version code established in AndroidManifest.xml version
+Index: app/src/main/java/com/royle/beartv2/SearchActivity.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/SearchActivity.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/SearchActivity.java	(revision )
+@@ -1,4 +1,4 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ import android.app.Activity;
+ import android.app.ProgressDialog;
+Index: app/src/main/res/menu/movie_category.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/movie_category.xml	(date 1498966998000)
++++ app/src/main/res/menu/movie_category.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.MovieCategoryActivity" >
++    tools:context="com.royle.play4k.MovieCategoryActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/src/main/res/layout/activity_download.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_download.xml	(date 1498966998000)
++++ app/src/main/res/layout/activity_download.xml	(revision )
+@@ -7,7 +7,7 @@
+ android:paddingRight="@dimen/activity_horizontal_margin"
+ android:paddingTop="@dimen/activity_vertical_margin"
+ android:background="#4D000000"
+-tools:context="com.royle.beartv2.DownloadActivity">
++tools:context="com.royle.play4k.DownloadActivity">
+ 
+ <LinearLayout
+     android:layout_width="match_parent"
+Index: app/src/main/res/layout-xlarge/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-xlarge/activity_main.xml	(date 1498966998000)
++++ app/src/main/res/layout-xlarge/activity_main.xml	(revision )
+@@ -1,104 +1,105 @@
++
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@android:color/black"
+-    tools:context="com.royle.beartv2.MainActivity" >
++    tools:context="com.royle.play4k.MainActivity" >
+ 
++
++
+     <LinearLayout
+         android:id="@+id/linearLayout1"
+         android:layout_width="match_parent"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:background="#313131"
+-        android:layout_height="45dp">
++        android:layout_height="40dp">
+ 
+-        <ImageView
+-            android:id="@+id/imageView6"
+-            android:layout_width="wrap_content"
++        <LinearLayout
++            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+-            android:layout_marginBottom="2dp"
+-            android:layout_marginLeft="20dp"
+-            android:layout_marginRight="20dp"
+-            android:layout_marginTop="2dp"
+-            android:src="@drawable/logo_fourk"
+-            android:scaleType="centerInside" />
++            android:gravity="right"
++            android:orientation="horizontal"
++            android:weightSum="1">
+ 
++            <TextView
++                android:id="@+id/textView1"
++                android:layout_width="wrap_content"
++                android:layout_height="match_parent"
++                android:layout_gravity="right"
++                android:layout_marginRight="10dp"
++                android:layout_weight="1"
++                android:gravity="center_vertical"
++                android:text="@string/version"
++                android:textAppearance="?android:attr/textAppearanceSmall" />
+ 
++            <TextView
++                android:id="@+id/txtExpire_main"
++                android:layout_width="wrap_content"
++                android:layout_height="match_parent"
++                android:layout_gravity="right"
++                android:layout_marginRight="90dp"
++                android:layout_marginTop="5dp"
++                android:gravity="center_vertical"
++                android:text="Expired Date"
++                android:textAppearance="?android:attr/textAppearanceSmall"
++                android:textColor="@android:color/white" />
+ 
++
++            android:textColor="#ffffff" />
++
++
++            android:layout_width="30dp" />
++
++
+-        <ImageButton
+-            android:id="@+id/btnSupport_main"
++            <ImageButton
++                android:id="@+id/btnSupport_main"
++                android:layout_width="80dp"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
+-            android:focusable="true"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
++                android:background="@drawable/selector_item_w"
++                android:focusable="true"
+-            android:src="@drawable/ic_support"
+-            android:scaleType="centerInside"
++                android:scaleType="centerInside"
+-            android:layout_width="100dp" />
++                android:src="@drawable/ic_support" />
+ 
+-        <requestFocus />
++            <requestFocus />
+ 
+-        <ImageButton
+-            android:id="@+id/btnSetting_main"
++            <ImageButton
++                android:id="@+id/btnSetting_main"
++                android:layout_width="80dp"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
+-            android:layout_marginLeft="2dp"
++                android:layout_marginLeft="2dp"
+-            android:src="@drawable/ic_setting"
++                android:background="@drawable/selector_item_w"
+-            android:scaleType="centerInside"
++                android:scaleType="centerInside"
+-            android:layout_width="100dp" />
++                android:src="@drawable/ic_setting" />
+ 
+ 
+-
+-        <ImageButton
+-            android:id="@+id/btnRefill_main"
++            <ImageButton
++                android:id="@+id/btnRefill_main"
++                android:layout_width="80dp"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
+-            android:layout_marginLeft="2dp"
++                android:layout_marginLeft="2dp"
+-            android:src="@drawable/ic_refill"
++                android:background="@drawable/selector_item_w"
+-            android:scaleType="centerInside"
++                android:scaleType="centerInside"
+-            android:layout_width="100dp" />
++                android:src="@drawable/ic_refill" />
+ 
+ 
+-
+-        <ImageButton
+-            android:id="@+id/btnSearch_main"
++            <ImageButton
++                android:id="@+id/btnSearch_main"
++                android:layout_width="80dp"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
+-            android:layout_marginLeft="2dp"
++                android:layout_marginLeft="2dp"
+-            android:src="@drawable/ic_search"
++                android:background="@drawable/selector_item_w"
+-            android:scaleType="centerInside"
++                android:scaleType="centerInside"
+-            android:layout_width="100dp" />
++                android:src="@drawable/ic_search" />
+ 
+-        <LinearLayout
+-            android:layout_width="match_parent"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:orientation="horizontal"
+-            android:gravity="right">
+ 
+-            <TextView
+-                android:id="@+id/txtExpire_main"
+-                android:layout_width="wrap_content"
+-                android:layout_height="wrap_content"
+-                android:layout_gravity="right"
+-                android:layout_marginRight="30dp"
+-                android:text="Expired Date"
+-                android:textAppearance="?android:attr/textAppearanceSmall"
+-                android:textColor="@android:color/white" />
+-
+-            <TextView
+-                android:id="@+id/textView1"
+-                android:layout_width="wrap_content"
+-                android:layout_height="wrap_content"
+-                android:layout_gravity="right"
+-                android:layout_marginRight="10dp"
+-                android:text="@string/version"
+-                android:textAppearance="?android:attr/textAppearanceSmall"
+-                android:textColor="#ffffff" />
+         </LinearLayout>
+     </LinearLayout>
+ 
+@@ -125,7 +126,10 @@
+                     android:orientation="vertical"
+                     android:id="@+id/linearSlider"
+                     android:layout_width="match_parent"
+-                    android:layout_height="match_parent"/>
++                    android:layout_height="match_parent"
++                    android:layout_alignParentTop="true"
++                    android:layout_alignParentLeft="true"
++                    android:layout_alignParentStart="true" />
+ 
+             </com.daimajia.slider.library.SliderLayout>
+ 
+@@ -241,6 +245,7 @@
+                         android:layout_weight="1"
+                         android:adjustViewBounds="true"
+                         android:background="@drawable/selector_item_w"
++                        android:scaleType="center"
+                         android:src="@drawable/ic_default" />
+                 </LinearLayout>
+ 
+@@ -286,10 +291,10 @@
+                     android:text="ยินดีต้อนรับเข้าสู่ 4K MOVIE BOX แอพเดียวที่มี 4K ให้คุณดู ยินดีต้อนรับเข้าสู่ 4K MOVIE BOX แอพเดียวที่มี 4K ให้คุณดู  ยินดีต้อนรับเข้าสู่ 4K MOVIE BOX แอพเดียวที่มี 4K ให้คุณดู"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="#ffffff"
+-                    android:textSize="15sp" />
++                    android:textSize="10sp" />
+             </LinearLayout>
+         </RelativeLayout>
+     </LinearLayout>
+ 
+ 
+-</RelativeLayout>
+\ No newline at end of file
++</RelativeLayout>
+Index: app/src/main/res/menu/tv_category.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/tv_category.xml	(date 1498966998000)
++++ app/src/main/res/menu/tv_category.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.TvCategoryActivity" >
++    tools:context="com.royle.play4k.TvCategoryActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/src/main/java/user/ChangePassActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/user/ChangePassActivity.java	(date 1498966998000)
++++ app/src/main/java/user/ChangePassActivity.java	(revision )
+@@ -10,7 +10,7 @@
+ import android.widget.EditText;
+ import android.widget.Toast;
+ 
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ import org.apache.http.NameValuePair;
+ import org.apache.http.message.BasicNameValuePair;
+Index: librarySlider/librarySlider.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- librarySlider/librarySlider.iml	(date 1498966998000)
++++ librarySlider/librarySlider.iml	(revision )
+@@ -63,13 +63,6 @@
+       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
+       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+@@ -77,16 +70,21 @@
+       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundles" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-safeguard" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
+-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
+\ No newline at end of file
+Index: app/src/main/java/com/royle/beartv2/Mxplayer.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/Mxplayer.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/Mxplayer.java	(revision )
+@@ -1,4 +1,4 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ import android.app.Activity;
+ import android.content.Intent;
+ import android.os.Bundle;
+Index: app/src/main/res/menu/user_profile.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/user_profile.xml	(date 1498966998000)
++++ app/src/main/res/menu/user_profile.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.UserProfileActivity" >
++    tools:context="com.royle.play4k.UserProfileActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/src/main/res/layout-large/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-large/activity_main.xml	(date 1498966998000)
++++ app/src/main/res/layout-large/activity_main.xml	(revision )
+@@ -5,102 +5,107 @@
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@android:color/black"
+-    tools:context="com.royle.beartv2.MainActivity" >
++    tools:context="com.royle.play4k.MainActivity" >
+ 
++
++
+     <LinearLayout
+         android:id="@+id/linearLayout1"
+         android:layout_width="match_parent"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:background="#313131"
+-        android:layout_height="45dp">
++        android:layout_height="40dp">
+ 
+-        <ImageView
+-            android:id="@+id/imageView6"
+-            android:layout_width="wrap_content"
++        <LinearLayout
++            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+-            android:layout_marginBottom="2dp"
+-            android:layout_marginLeft="20dp"
+-            android:layout_marginRight="20dp"
+-            android:layout_marginTop="2dp"
+-            android:src="@drawable/logo_fourk"
+-            android:scaleType="centerInside" />
++            android:orientation="horizontal"
++            android:gravity="right"
++            android:weightSum="1">
+ 
++            <TextView
++                android:id="@+id/textView1"
++                android:layout_width="wrap_content"
++                android:layout_height="match_parent"
++                android:layout_gravity="right"
++                android:layout_marginRight="10dp"
++                android:layout_weight="1"
++                android:gravity="center_vertical"
++                android:text="@string/version"
++                android:textAppearance="?android:attr/textAppearanceSmall" />
+ 
++            <TextView
++                android:id="@+id/txtExpire_main"
++                android:layout_width="wrap_content"
++                android:layout_height="match_parent"
++                android:layout_gravity="right"
++                android:layout_marginRight="90dp"
++                android:layout_marginTop="5dp"
++                android:gravity="center_vertical"
++                android:text="Expired Date"
++                android:textAppearance="?android:attr/textAppearanceSmall"
++                android:textColor="@android:color/white" />
+ 
++
++            android:textColor="#ffffff" />
++
++
++
++
++
++
++            android:layout_width="30dp" />
++
++
+-        <ImageButton
+-            android:id="@+id/btnSupport_main"
++            <ImageButton
++                android:id="@+id/btnSupport_main"
++                android:layout_width="80dp"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
+-            android:focusable="true"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
++                android:background="@drawable/selector_item_w"
++                android:focusable="true"
+-            android:src="@drawable/ic_support"
+-            android:scaleType="centerInside"
++                android:scaleType="centerInside"
+-            android:layout_width="80dp" />
++                android:src="@drawable/ic_support" />
+ 
+-        <requestFocus />
++            <requestFocus />
+ 
+-        <ImageButton
+-            android:id="@+id/btnSetting_main"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
+-            android:layout_marginLeft="2dp"
+-            android:src="@drawable/ic_setting"
+-            android:scaleType="centerInside"
+-            android:layout_width="80dp" />
++            <ImageButton
++                android:id="@+id/btnSetting_main"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
++                android:background="@drawable/selector_item_w"
++                android:layout_marginLeft="2dp"
++                android:src="@drawable/ic_setting"
++                android:scaleType="centerInside"
++                android:layout_width="80dp" />
+ 
+ 
+ 
+-        <ImageButton
+-            android:id="@+id/btnRefill_main"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
+-            android:layout_marginLeft="2dp"
+-            android:src="@drawable/ic_refill"
+-            android:scaleType="centerInside"
+-            android:layout_width="80dp" />
++            <ImageButton
++                android:id="@+id/btnRefill_main"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
++                android:background="@drawable/selector_item_w"
++                android:layout_marginLeft="2dp"
++                android:src="@drawable/ic_refill"
++                android:scaleType="centerInside"
++                android:layout_width="80dp" />
+ 
+ 
+ 
+-        <ImageButton
+-            android:id="@+id/btnSearch_main"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
+-            android:layout_marginLeft="2dp"
+-            android:src="@drawable/ic_search"
+-            android:scaleType="centerInside"
+-            android:layout_width="80dp" />
++            <ImageButton
++                android:id="@+id/btnSearch_main"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
++                android:background="@drawable/selector_item_w"
++                android:layout_marginLeft="2dp"
++                android:src="@drawable/ic_search"
++                android:scaleType="centerInside"
++                android:layout_width="80dp" />
+ 
+-        <LinearLayout
+-            android:layout_width="match_parent"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:orientation="horizontal"
+-            android:gravity="right">
+ 
+-            <TextView
+-                android:id="@+id/txtExpire_main"
+-                android:layout_width="wrap_content"
+-                android:layout_height="wrap_content"
+-                android:layout_gravity="right"
+-                android:layout_marginRight="30dp"
+-                android:text="Expired Date"
+-                android:textAppearance="?android:attr/textAppearanceSmall"
+-                android:textColor="@android:color/white" />
+-
+-            <TextView
+-                android:id="@+id/textView1"
+-                android:layout_width="wrap_content"
+-                android:layout_height="wrap_content"
+-                android:layout_gravity="right"
+-                android:layout_marginRight="10dp"
+-                android:text="@string/version"
+-                android:textAppearance="?android:attr/textAppearanceSmall"
+-                android:textColor="#ffffff" />
+         </LinearLayout>
+     </LinearLayout>
+ 
+@@ -127,7 +132,10 @@
+                     android:orientation="vertical"
+                     android:id="@+id/linearSlider"
+                     android:layout_width="match_parent"
+-                    android:layout_height="match_parent"/>
++                    android:layout_height="match_parent"
++                    android:layout_alignParentTop="true"
++                    android:layout_alignParentLeft="true"
++                    android:layout_alignParentStart="true" />
+ 
+             </com.daimajia.slider.library.SliderLayout>
+ 
+@@ -289,7 +297,7 @@
+                     android:text="ยินดีต้อนรับเข้าสู่ 4K MOVIE BOX แอพเดียวที่มี 4K ให้คุณดู ยินดีต้อนรับเข้าสู่ 4K MOVIE BOX แอพเดียวที่มี 4K ให้คุณดู  ยินดีต้อนรับเข้าสู่ 4K MOVIE BOX แอพเดียวที่มี 4K ให้คุณดู"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="#ffffff"
+-                    android:textSize="12sp" />
++                    android:textSize="10sp" />
+             </LinearLayout>
+         </RelativeLayout>
+     </LinearLayout>
+Index: app/src/main/java/series/SeriesCategoryAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/series/SeriesCategoryAdapter.java	(date 1498966998000)
++++ app/src/main/java/series/SeriesCategoryAdapter.java	(revision )
+@@ -15,7 +15,7 @@
+ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/build/generated/source/buildConfig/androidTest/debug/com/royle/beartv2/test/BuildConfig.java
+===================================================================
+--- app/build/generated/source/buildConfig/androidTest/debug/com/royle/beartv2/test/BuildConfig.java	(date 1498966998000)
++++ app/build/generated/source/buildConfig/androidTest/debug/com/royle/play4k/test/BuildConfig.java	(revision )
+@@ -1,11 +1,11 @@
+ /**
+  * Automatically generated file. DO NOT MODIFY
+  */
+-package com.royle.beartv2.test;
++package com.royle.play4k.test;
+ 
+ public final class BuildConfig {
+   public static final boolean DEBUG = Boolean.parseBoolean("true");
+-  public static final String APPLICATION_ID = "com.royle.beartv2.test";
++  public static final String APPLICATION_ID = "com.royle.play4k.test";
+   public static final String BUILD_TYPE = "debug";
+   public static final String FLAVOR = "";
+   public static final int VERSION_CODE = 3;
+Index: app/src/main/res/layout-xlarge/activity_download.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-xlarge/activity_download.xml	(date 1498966998000)
++++ app/src/main/res/layout-xlarge/activity_download.xml	(revision )
+@@ -7,7 +7,7 @@
+ android:paddingRight="@dimen/activity_horizontal_margin"
+ android:paddingTop="@dimen/activity_vertical_margin"
+ android:background="#4D000000"
+-tools:context="com.royle.beartv2.DownloadActivity">
++tools:context="com.royle.play4k.DownloadActivity">
+ 
+ <LinearLayout
+     android:layout_width="match_parent"
+Index: app/src/main/java/user/ErrorActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/user/ErrorActivity.java	(date 1498966998000)
++++ app/src/main/java/user/ErrorActivity.java	(revision )
+@@ -1,6 +1,6 @@
+ package user;
+ 
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ import android.app.Activity;
+ import android.os.Bundle;
+\ No newline at end of file
+Index: app/src/main/java/series/SeriesAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/series/SeriesAdapter.java	(date 1498966998000)
++++ app/src/main/java/series/SeriesAdapter.java	(revision )
+@@ -16,7 +16,7 @@
+ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/res/layout-small/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-small/activity_main.xml	(date 1498966998000)
++++ app/src/main/res/layout-small/activity_main.xml	(revision )
+@@ -1,102 +1,111 @@
++
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@android:color/black"
+-    tools:context="com.royle.beartv2.MainActivity" >
++    tools:context="com.royle.play4k.MainActivity" >
+ 
++
++
+     <LinearLayout
+         android:id="@+id/linearLayout1"
+         android:layout_width="match_parent"
+-        android:layout_height="50dp"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+-        android:background="#313131" >
++        android:background="#313131"
++        android:layout_height="40dp">
+ 
+-        <ImageView
+-            android:id="@+id/imageView6"
+-            android:layout_width="wrap_content"
++        <LinearLayout
++            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+-            android:layout_marginBottom="2dp"
+-            android:layout_marginLeft="20dp"
+-            android:layout_marginRight="20dp"
+-            android:layout_marginTop="2dp"
+-            android:src="@drawable/logo_fourk"
+-            android:scaleType="centerInside" />
++            android:orientation="horizontal"
++            android:gravity="right"
++            android:weightSum="1">
+ 
++            <TextView
++                android:id="@+id/textView1"
++                android:layout_width="wrap_content"
++                android:layout_height="match_parent"
++                android:layout_gravity="right"
++                android:layout_marginRight="10dp"
++                android:layout_weight="1"
++                android:gravity="center_vertical"
++                android:text="@string/version"
++                android:textAppearance="?android:attr/textAppearanceSmall" />
+ 
++            <TextView
++                android:id="@+id/txtExpire_main"
++                android:layout_width="wrap_content"
++                android:layout_height="match_parent"
++                android:layout_gravity="right"
++                android:layout_marginRight="90dp"
++                android:layout_marginTop="5dp"
++                android:gravity="center_vertical"
++                android:text="Expired Date"
++                android:textAppearance="?android:attr/textAppearanceSmall"
++                android:textColor="@android:color/white" />
+ 
++
++            android:textColor="#ffffff" />
++
++
++
++
++
++
++            android:layout_width="30dp" />
++
++
+-        <ImageButton
+-            android:id="@+id/btnSupport_main"
++            <ImageButton
++                android:id="@+id/btnSupport_main"
+-            android:layout_width="wrap_content"
++                android:layout_width="80dp"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
+-            android:focusable="true"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
++                android:background="@drawable/selector_item_w"
++                android:focusable="true"
+-            android:src="@drawable/ic_support"
+-            android:scaleType="centerInside" />
++                android:scaleType="centerInside"
++                android:src="@drawable/ic_support" />
+ 
+-        <requestFocus />
++            <requestFocus />
+ 
+-        <ImageButton
+-            android:id="@+id/btnSetting_main"
++            <ImageButton
++                android:id="@+id/btnSetting_main"
+-            android:layout_width="wrap_content"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
++                android:background="@drawable/selector_item_w"
+-            android:layout_marginLeft="10dp"
++                android:layout_marginLeft="2dp"
+-            android:src="@drawable/ic_setting"
++                android:src="@drawable/ic_setting"
+-            android:scaleType="centerInside" />
++                android:scaleType="centerInside"
++                android:layout_width="80dp" />
+ 
++
++
+-        <ImageButton
+-            android:id="@+id/btnRefill_main"
++            <ImageButton
++                android:id="@+id/btnRefill_main"
+-            android:layout_width="wrap_content"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
++                android:background="@drawable/selector_item_w"
+-            android:layout_marginLeft="10dp"
++                android:layout_marginLeft="2dp"
+-            android:src="@drawable/ic_refill"
++                android:src="@drawable/ic_refill"
+-            android:scaleType="centerInside" />
++                android:scaleType="centerInside"
++                android:layout_width="80dp" />
+ 
+ 
+ 
+-        <ImageButton
+-            android:id="@+id/btnSearch_main"
++            <ImageButton
++                android:id="@+id/btnSearch_main"
+-            android:layout_width="wrap_content"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
++                android:background="@drawable/selector_item_w"
+-            android:layout_marginLeft="10dp"
++                android:layout_marginLeft="2dp"
+-            android:src="@drawable/ic_search"
++                android:src="@drawable/ic_search"
+-            android:scaleType="centerInside" />
++                android:scaleType="centerInside"
++                android:layout_width="80dp" />
+ 
+-        <LinearLayout
+-            android:layout_width="match_parent"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:orientation="horizontal"
+-            android:gravity="right">
+ 
+-            <TextView
+-                android:id="@+id/txtExpire_main"
+-                android:layout_width="wrap_content"
+-                android:layout_height="wrap_content"
+-                android:layout_gravity="right"
+-                android:layout_marginRight="30dp"
+-                android:text="Expired Date"
+-                android:textAppearance="?android:attr/textAppearanceSmall"
+-                android:textColor="@android:color/white" />
+-
+-            <TextView
+-                android:id="@+id/textView1"
+-                android:layout_width="wrap_content"
+-                android:layout_height="wrap_content"
+-                android:layout_gravity="right"
+-                android:layout_marginRight="10dp"
+-                android:text="@string/version"
+-                android:textAppearance="?android:attr/textAppearanceSmall"
+-                android:textColor="#ffffff" />
+         </LinearLayout>
+     </LinearLayout>
+ 
+@@ -123,7 +132,10 @@
+                     android:orientation="vertical"
+                     android:id="@+id/linearSlider"
+                     android:layout_width="match_parent"
+-                    android:layout_height="match_parent"/>
++                    android:layout_height="match_parent"
++                    android:layout_alignParentTop="true"
++                    android:layout_alignParentLeft="true"
++                    android:layout_alignParentStart="true" />
+ 
+             </com.daimajia.slider.library.SliderLayout>
+ 
+@@ -284,10 +296,11 @@
+                     android:singleLine="true"
+                     android:text="ยินดีต้อนรับเข้าสู่ 4K MOVIE BOX แอพเดียวที่มี 4K ให้คุณดู ยินดีต้อนรับเข้าสู่ 4K MOVIE BOX แอพเดียวที่มี 4K ให้คุณดู  ยินดีต้อนรับเข้าสู่ 4K MOVIE BOX แอพเดียวที่มี 4K ให้คุณดู"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+-                    android:textColor="#ffffff" />
++                    android:textColor="#ffffff"
++                    android:textSize="10sp" />
+             </LinearLayout>
+         </RelativeLayout>
+     </LinearLayout>
+ 
+ 
+-</RelativeLayout>
+\ No newline at end of file
++</RelativeLayout>
+Index: app/src/main/res/menu/ebook_category.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/ebook_category.xml	(date 1498966998000)
++++ app/src/main/res/menu/ebook_category.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.EbookCategoryActivity" >
++    tools:context="com.royle.play4k.EbookCategoryActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/src/main/java/iptv/IpTvCategoryAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/iptv/IpTvCategoryAdapter.java	(date 1498966998000)
++++ app/src/main/java/iptv/IpTvCategoryAdapter.java	(revision )
+@@ -15,7 +15,7 @@
+ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/java/com/royle/beartv2/UpdateCheck.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/UpdateCheck.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/UpdateCheck.java	(revision )
+@@ -1,4 +1,4 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ import android.app.Activity;
+ import android.app.AlertDialog;
+@@ -23,7 +23,7 @@
+ /**
+  * Created by Naifun on 2/2/2559.
+  */
+-public class UpdateCheck  extends Activity implements AlertDialog.OnClickListener{
++public class UpdateCheck extends Activity implements AlertDialog.OnClickListener{
+     private Autoupdater updater;
+     private RelativeLayout loadingPanel;
+     private Context context;
+Index: app/src/main/java/com/royle/beartv2/SportActivity.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/SportActivity.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/SportActivity.java	(revision )
+@@ -1,4 +1,4 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ import android.app.Activity;
+ import android.os.Bundle;
+Index: app/src/main/java/series/SeriesCategoryActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/series/SeriesCategoryActivity.java	(date 1498966998000)
++++ app/src/main/java/series/SeriesCategoryActivity.java	(revision )
+@@ -15,8 +15,8 @@
+ import android.widget.ImageButton;
+ import android.widget.TextView;
+ 
+-import com.royle.beartv2.R;
+-import com.royle.beartv2.SearchSRActivity;
++import com.royle.play4k.R;
++import com.royle.play4k.SearchSRActivity;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/java/user/CheckTrueMoneyActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/user/CheckTrueMoneyActivity.java	(date 1498966998000)
++++ app/src/main/java/user/CheckTrueMoneyActivity.java	(revision )
+@@ -14,8 +14,8 @@
+ import android.widget.EditText;
+ import android.widget.Toast;
+ 
+-import com.royle.beartv2.MainActivity;
+-import com.royle.beartv2.R;
++import com.royle.play4k.MainActivity;
++import com.royle.play4k.R;
+ 
+ 
+ public class CheckTrueMoneyActivity extends Activity {
+Index: app/src/main/java/ebook/WebViewEbookActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/ebook/WebViewEbookActivity.java	(date 1498966998000)
++++ app/src/main/java/ebook/WebViewEbookActivity.java	(revision )
+@@ -7,7 +7,7 @@
+ import android.webkit.WebSettings.PluginState;
+ import android.webkit.WebView;
+ 
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ public class WebViewEbookActivity extends Activity {
+ 	
+Index: app/src/main/java/series/SeriesActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/series/SeriesActivity.java	(date 1498966998000)
++++ app/src/main/java/series/SeriesActivity.java	(revision )
+@@ -17,8 +17,8 @@
+ import android.widget.Gallery;
+ import android.widget.TextView;
+ 
+-import com.royle.beartv2.MainActivity;
+-import com.royle.beartv2.R;
++import com.royle.play4k.MainActivity;
++import com.royle.play4k.R;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/java/user/HowtoAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/user/HowtoAdapter.java	(date 1498966998000)
++++ app/src/main/java/user/HowtoAdapter.java	(revision )
+@@ -15,7 +15,7 @@
+ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/java/meklib/KeepAlive.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/meklib/KeepAlive.java	(date 1498966998000)
++++ app/src/main/java/meklib/KeepAlive.java	(revision )
+@@ -14,7 +14,7 @@
+ import android.os.Message;
+ import android.widget.Toast;
+ 
+-import com.royle.beartv2.MainActivity;
++import com.royle.play4k.MainActivity;
+ import org.json.JSONObject;
+ 
+ import helper.DataStore;
+\ No newline at end of file
+Index: app/src/main/java/movie/MovieActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/movie/MovieActivity.java	(date 1498966998000)
++++ app/src/main/java/movie/MovieActivity.java	(revision )
+@@ -17,8 +17,8 @@
+ import android.widget.Gallery;
+ import android.widget.TextView;
+ 
+-import com.royle.beartv2.MainActivity;
+-import com.royle.beartv2.R;
++import com.royle.play4k.MainActivity;
++import com.royle.play4k.R;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/java/user/RefillActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/user/RefillActivity.java	(date 1498966998000)
++++ app/src/main/java/user/RefillActivity.java	(revision )
+@@ -1,7 +1,7 @@
+ package user;
+ 
+-import com.royle.beartv2.R;
+-import com.royle.beartv2.WebViewPayPalActivity;
++import com.royle.play4k.R;
++import com.royle.play4k.WebViewPayPalActivity;
+ 
+ import android.app.Activity;
+ import android.app.AlertDialog;
+Index: app/src/main/java/iptv/IpTvActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/iptv/IpTvActivity.java	(date 1498966998000)
++++ app/src/main/java/iptv/IpTvActivity.java	(revision )
+@@ -17,8 +17,8 @@
+ import android.widget.Gallery;
+ import android.widget.TextView;
+ 
+-import com.royle.beartv2.MainActivity;
+-import com.royle.beartv2.R;
++import com.royle.play4k.MainActivity;
++import com.royle.play4k.R;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/java/user/LoginActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/user/LoginActivity.java	(date 1498966998000)
++++ app/src/main/java/user/LoginActivity.java	(revision )
+@@ -20,8 +20,8 @@
+ import android.widget.EditText;
+ import android.widget.Toast;
+ 
+-import com.royle.beartv2.MainActivity;
+-import com.royle.beartv2.R;
++import com.royle.play4k.MainActivity;
++import com.royle.play4k.R;
+ 
+ import org.apache.http.NameValuePair;
+ import org.apache.http.message.BasicNameValuePair;
+Index: app/src/main/java/series/SeriesDetailActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/series/SeriesDetailActivity.java	(date 1498966998000)
++++ app/src/main/java/series/SeriesDetailActivity.java	(revision )
+@@ -27,9 +27,9 @@
+ import com.nostra13.universalimageloader.core.ImageLoader;
+ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+-import com.royle.beartv2.Mxplayer;
+-import com.royle.beartv2.R;
+-import com.royle.beartv2.SearchSRActivity;
++import com.royle.play4k.Mxplayer;
++import com.royle.play4k.R;
++import com.royle.play4k.SearchSRActivity;
+ 
+ import org.json.JSONObject;
+ 
+Index: app/src/main/java/movie/MovieAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/movie/MovieAdapter.java	(date 1498966998000)
++++ app/src/main/java/movie/MovieAdapter.java	(revision )
+@@ -16,7 +16,7 @@
+ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/res/layout-large/activity_news.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-large/activity_news.xml	(date 1498966998000)
++++ app/src/main/res/layout-large/activity_news.xml	(revision )
+@@ -7,7 +7,7 @@
+     android:padding="10dp"
+     android:weightSum="3"
+     android:background="#000000"
+-    tools:context="com.royle.beartv2.NewsActivity" >
++    tools:context="com.royle.play4k.NewsActivity" >
+ 
+     <ImageView
+         android:id="@+id/img_news"
+Index: app/src/main/java/com/royle/beartv2/SearchSRActivity.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/SearchSRActivity.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/SearchSRActivity.java	(revision )
+@@ -1,4 +1,4 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ import android.app.Activity;
+ import android.app.ProgressDialog;
+Index: app/src/main/java/com/royle/beartv2/NewsActivity.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/NewsActivity.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/NewsActivity.java	(revision )
+@@ -1,4 +1,4 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ import android.app.Activity;
+ import android.graphics.Bitmap;
+Index: app/src/main/java/movie/MovieDetailActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/movie/MovieDetailActivity.java	(date 1498966998000)
++++ app/src/main/java/movie/MovieDetailActivity.java	(revision )
+@@ -26,9 +26,9 @@
+ import com.nostra13.universalimageloader.core.ImageLoader;
+ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+-import com.royle.beartv2.Mxplayer;
+-import com.royle.beartv2.R;
+-import com.royle.beartv2.SearchActivity;
++import com.royle.play4k.Mxplayer;
++import com.royle.play4k.R;
++import com.royle.play4k.SearchActivity;
+ 
+ import org.json.JSONObject;
+ 
+Index: app/src/main/res/menu/series_detail.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/series_detail.xml	(date 1498966998000)
++++ app/src/main/res/menu/series_detail.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.SeriesDetailActivity" >
++    tools:context="com.royle.play4k.SeriesDetailActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/src/main/java/com/royle/beartv2/ServiceCheck.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/ServiceCheck.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/ServiceCheck.java	(revision )
+@@ -1,4 +1,4 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ import android.app.Service;
+ import android.content.Intent;
+Index: app/src/main/java/user/HowtoActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/user/HowtoActivity.java	(date 1498966998000)
++++ app/src/main/java/user/HowtoActivity.java	(revision )
+@@ -21,9 +21,9 @@
+ import android.widget.TextView;
+ import android.widget.Toast;
+ 
+-import com.royle.beartv2.Mxplayer;
+-import com.royle.beartv2.R;
+-import com.royle.beartv2.SearchActivity;
++import com.royle.play4k.Mxplayer;
++import com.royle.play4k.R;
++import com.royle.play4k.SearchActivity;
+ 
+ import org.json.JSONObject;
+ 
+Index: app/src/main/res/layout/webview_sport.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/webview_sport.xml	(date 1498966998000)
++++ app/src/main/res/layout/webview_sport.xml	(revision )
+@@ -2,7 +2,7 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    tools:context="com.royle.beartv2.SportActivity" >
++    tools:context="com.royle.play4k.SportActivity" >
+ 
+     <WebView
+         android:id="@+id/webview_sport"
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build.gradle	(date 1498966998000)
++++ app/build.gradle	(revision )
+@@ -12,7 +12,7 @@
+     compileSdkVersion 19
+     buildToolsVersion '25.0.0'
+     defaultConfig {
+-        applicationId "com.royle.beartv2"
++        applicationId "com.royle.play4k"
+         minSdkVersion 15
+         targetSdkVersion 19
+         versionCode 3
+Index: app/src/main/res/layout-xlarge/webview_sport.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-xlarge/webview_sport.xml	(date 1498966998000)
++++ app/src/main/res/layout-xlarge/webview_sport.xml	(revision )
+@@ -2,7 +2,7 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    tools:context="com.royle.beartv2.SportActivity" >
++    tools:context="com.royle.play4k.SportActivity" >
+ 
+     <WebView
+         android:id="@+id/webview_sport"
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(date 1498966998000)
++++ app/src/main/AndroidManifest.xml	(revision )
+@@ -1,8 +1,8 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+-    package="com.royle.beartv2"
+-    android:versionCode="1"
+-    android:versionName="1.0">
++    package="com.royle.play4k"
++    android:versionCode="2"
++    android:versionName="2.0">
+ 
+     <uses-sdk
+         android:minSdkVersion="16"
+@@ -22,33 +22,33 @@
+     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+ 
+ 
+-    <compatible-screens>
+-        <screen android:screenSize="small"
+-            android:screenDensity="ldpi" />
+-        <screen android:screenSize="small"
+-            android:screenDensity="mdpi" />
+-        <screen android:screenSize="small"
+-            android:screenDensity="hdpi" />
+-        <screen android:screenSize="small"
+-            android:screenDensity="xhdpi" />
+-        <screen android:screenSize="normal"
+-            android:screenDensity="ldpi" />
+-        <screen android:screenSize="normal"
+-            android:screenDensity="mdpi" />
+-        <screen android:screenSize="normal"
+-            android:screenDensity="hdpi" />
+-        <screen android:screenSize="normal"
+-            android:screenDensity="xhdpi" />
+-    </compatible-screens>
+ 
+ 
++    <supports-screens>
++
++        android:resizeable=["true"| "false"]
++        android:smallScreens=["true" | "false"]
++        android:normalScreens=["true" | "false"]
++        android:largeScreens=["true" | "false"]
++        android:xlargeScreens=["true" | "false"]
++        android:anyDensity=["true" | "false"]
++        android:requiresSmallestWidthDp="integer"
++        android:compatibleWidthLimitDp="integer"
++        android:largestWidthLimitDp="integer"
++
++
++    </supports-screens>
++
++
++
++
+     <application
+         android:allowBackup="true"
+         android:icon="@drawable/logo"
+         android:label="@string/app_name"
+         android:theme="@style/AppTheme">
+         <activity
+-            android:name="com.royle.beartv2.SplashScreen"
++            android:name="com.royle.play4k.SplashScreen"
+             android:label="@string/app_name"
+             android:screenOrientation="landscape"
+             android:theme="@android:style/Theme.NoTitleBar">
+@@ -58,13 +58,16 @@
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
++
++
++
+         <activity
+-            android:name="com.royle.beartv2.UpdateCheck"
++            android:name="com.royle.play4k.UpdateCheck"
+             android:label="UpdateCheck"
+             android:screenOrientation="landscape"
+             android:theme="@android:style/Theme.NoTitleBar" />
+         <activity
+-            android:name="com.royle.beartv2.MainActivity"
++            android:name="com.royle.play4k.MainActivity"
+             android:label="@string/app_name"
+             android:screenOrientation="landscape" />
+         <activity
+@@ -109,12 +112,12 @@
+             android:label="@string/title_activity_user_profile"
+             android:screenOrientation="landscape" />
+         <activity
+-            android:name="com.royle.beartv2.SearchActivity"
++            android:name="com.royle.play4k.SearchActivity"
+             android:label="@string/title_activity_search"
+             android:screenOrientation="landscape"
+             android:theme="@android:style/Theme.Dialog" />
+         <activity
+-            android:name="com.royle.beartv2.NewsActivity"
++            android:name="com.royle.play4k.NewsActivity"
+             android:label="@string/title_activity_news"
+             android:screenOrientation="landscape" />
+         <activity
+@@ -153,7 +156,7 @@
+             android:screenOrientation="landscape"
+             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+         <activity
+-            android:name="com.royle.beartv2.SearchSRActivity"
++            android:name="com.royle.play4k.SearchSRActivity"
+             android:label="SearchSR"
+             android:screenOrientation="landscape"
+             android:theme="@android:style/Theme.Dialog" />
+@@ -166,15 +169,15 @@
+             android:screenOrientation="landscape"
+             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+         <activity
+-            android:name="com.royle.beartv2.Mxplayer"
++            android:name="com.royle.play4k.Mxplayer"
+             android:screenOrientation="landscape"
+             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+ 
+         <activity
+-            android:name="com.royle.beartv2.SportActivity"
++            android:name="com.royle.play4k.SportActivity"
+             android:label="SportActivity"
+             android:screenOrientation="landscape" />
+-        <activity android:name="com.royle.beartv2.WebViewPayPalActivity" />
++        <activity android:name="com.royle.play4k.WebViewPayPalActivity" />
+ 
+         <activity
+             android:name="user.ErrorActivity"
+\ No newline at end of file
+Index: app/src/main/java/series/SeriesDetailAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/series/SeriesDetailAdapter.java	(date 1498966998000)
++++ app/src/main/java/series/SeriesDetailAdapter.java	(revision )
+@@ -2,7 +2,7 @@
+ 
+ import java.util.ArrayList;
+ 
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ import android.content.Context;
+ import android.view.LayoutInflater;
+Index: app/src/main/java/user/UserProfileActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/user/UserProfileActivity.java	(date 1498966998000)
++++ app/src/main/java/user/UserProfileActivity.java	(revision )
+@@ -12,9 +12,9 @@
+ import android.widget.TextView;
+ import android.widget.Toast;
+ 
+-import com.royle.beartv2.MainActivity;
+-import com.royle.beartv2.R;
+-import com.royle.beartv2.ServiceCheck;
++import com.royle.play4k.MainActivity;
++import com.royle.play4k.R;
++import com.royle.play4k.ServiceCheck;
+ 
+ import org.json.JSONObject;
+ 
+Index: app/src/main/res/layout-xlarge/activity_news.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-xlarge/activity_news.xml	(date 1498966998000)
++++ app/src/main/res/layout-xlarge/activity_news.xml	(revision )
+@@ -7,7 +7,7 @@
+     android:padding="10dp"
+     android:weightSum="3"
+     android:background="#000000"
+-    tools:context="com.royle.beartv2.NewsActivity" >
++    tools:context="com.royle.play4k.NewsActivity" >
+ 
+     <ImageView
+         android:id="@+id/img_news"
+Index: app/src/main/res/menu/main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/main.xml	(date 1498966998000)
++++ app/src/main/res/menu/main.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.MainActivity" >
++    tools:context="com.royle.play4k.MainActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/src/main/res/layout-land/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-land/activity_main.xml	(date 1498966998000)
++++ app/src/main/res/layout-land/activity_main.xml	(revision )
+@@ -5,8 +5,10 @@
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@android:color/black"
+-    tools:context="com.royle.beartv2.MainActivity" >
++    tools:context="com.royle.play4k.MainActivity" >
+ 
++
++
+     <LinearLayout
+         android:id="@+id/linearLayout1"
+         android:layout_width="match_parent"
+@@ -15,31 +17,59 @@
+         android:background="#313131"
+         android:layout_height="40dp">
+ 
+-        <ImageView
+-            android:id="@+id/imageView6"
++        <LinearLayout
++            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+-            android:layout_marginBottom="2dp"
+-            android:layout_marginLeft="20dp"
+-            android:layout_marginRight="20dp"
+-            android:layout_marginTop="2dp"
+-            android:src="@drawable/logo_fourk"
+-            android:scaleType="centerInside"
+-            android:layout_width="30dp" />
++            android:orientation="horizontal"
++            android:gravity="right"
++            android:weightSum="1">
+ 
++            <TextView
++                android:id="@+id/textView1"
++                android:layout_width="wrap_content"
++                android:layout_height="match_parent"
++                android:layout_gravity="right"
++                android:layout_marginRight="10dp"
++                android:layout_weight="1"
++                android:gravity="center_vertical"
++                android:text="@string/version"
++                android:textAppearance="?android:attr/textAppearanceSmall" />
+ 
++            <TextView
++                android:id="@+id/txtExpire_main"
++                android:layout_width="wrap_content"
++                android:layout_height="match_parent"
++                android:layout_gravity="right"
++                android:layout_marginRight="90dp"
++                android:layout_marginTop="5dp"
++                android:gravity="center_vertical"
++                android:text="Expired Date"
++                android:textAppearance="?android:attr/textAppearanceSmall"
++                android:textColor="@android:color/white" />
+ 
++
++                android:textColor="#ffffff" />
++
++
++
++
++
++
++            android:layout_width="30dp" />
++
++
+-        <ImageButton
+-            android:id="@+id/btnSupport_main"
++            <ImageButton
++                android:id="@+id/btnSupport_main"
++                android:layout_width="80dp"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:background="@drawable/selector_item_w"
+-            android:focusable="true"
++                android:layout_height="wrap_content"
++                android:layout_gravity="center_vertical"
++                android:background="@drawable/selector_item_w"
++                android:focusable="true"
+-            android:src="@drawable/ic_support"
+-            android:scaleType="centerInside"
++                android:scaleType="centerInside"
+-            android:layout_width="80dp" />
++                android:src="@drawable/ic_support" />
+ 
+-        <requestFocus />
++            <requestFocus />
+ 
+         <ImageButton
+             android:id="@+id/btnSetting_main"
+@@ -75,32 +105,7 @@
+             android:scaleType="centerInside"
+             android:layout_width="80dp" />
+ 
+-        <LinearLayout
+-            android:layout_width="match_parent"
+-            android:layout_height="wrap_content"
+-            android:layout_gravity="center_vertical"
+-            android:orientation="horizontal"
+-            android:gravity="right">
+ 
+-            <TextView
+-                android:id="@+id/txtExpire_main"
+-                android:layout_width="wrap_content"
+-                android:layout_height="wrap_content"
+-                android:layout_gravity="right"
+-                android:layout_marginRight="10dp"
+-                android:text="Expired Date"
+-                android:textAppearance="?android:attr/textAppearanceSmall"
+-                android:textColor="@android:color/white" />
+-
+-            <TextView
+-                android:id="@+id/textView1"
+-                android:layout_width="wrap_content"
+-                android:layout_height="wrap_content"
+-                android:layout_gravity="right"
+-                android:layout_marginRight="10dp"
+-                android:text="@string/version"
+-                android:textAppearance="?android:attr/textAppearanceSmall"
+-                android:textColor="#ffffff" />
+         </LinearLayout>
+     </LinearLayout>
+ 
+@@ -127,7 +132,10 @@
+                     android:orientation="vertical"
+                     android:id="@+id/linearSlider"
+                     android:layout_width="match_parent"
+-                    android:layout_height="match_parent"/>
++                    android:layout_height="match_parent"
++                    android:layout_alignParentTop="true"
++                    android:layout_alignParentLeft="true"
++                    android:layout_alignParentStart="true" />
+ 
+             </com.daimajia.slider.library.SliderLayout>
+ 
+Index: app/src/main/java/com/royle/beartv2/OtherData.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/OtherData.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/OtherData.java	(revision )
+@@ -1,4 +1,4 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ import android.content.Context;
+ 
+Index: app/src/main/java/com/royle/beartv2/MainActivity.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/MainActivity.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/MainActivity.java	(revision )
+@@ -1,4 +1,4 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ import android.app.AlertDialog;
+ import android.app.Dialog;
+@@ -71,7 +71,7 @@
+ import user.SupportActivity;
+ import user.UserProfileActivity;
+ 
+-import static com.royle.beartv2.SplashScreen.DIALOG_ERROR_CONNECTION;
++import static com.royle.play4k.SplashScreen.DIALOG_ERROR_CONNECTION;
+ 
+ public class MainActivity extends FragmentActivity {
+     // widget
+@@ -144,7 +144,7 @@
+             public void onClick(View v) {
+ 
+                 initWidget();
+-                if (true) {
++                if (dataStore.checkUser()) {
+                     Intent intent = new Intent(MainActivity.this, RefillActivity.class);
+                     startActivity(intent);
+                 } else {
+@@ -192,7 +192,7 @@
+ 
+ 
+   // no direct   if (dataStore.checkUser()) {
+-                  if (true) {
++                  if (dataStore.checkUser()) {
+                     intent = new Intent(MainActivity.this, MovieActivity.class);
+                     startActivity(intent);
+ 
+@@ -235,7 +235,7 @@
+             @Override
+             public void onClick(View v) {
+ 
+-                if (true) {
++                if (dataStore.checkUser()) {
+                     intent = new Intent(MainActivity.this, SeriesActivity.class);
+                     startActivity(intent);
+ 
+@@ -508,7 +508,7 @@
+     }
+ 
+     public void checkUser() {
+-        if (true) {
++        if (dataStore.checkUser()) {
+ 
+             txtExpire.setVisibility(View.VISIBLE);
+ 
+@@ -537,7 +537,7 @@
+                 @Override
+                 public void onClick(View v) {
+ 
+-                    if (true) {
++                    if (dataStore.checkUser()) {
+                         Intent intent = new Intent(MainActivity.this, MovieDetailActivity.class);
+                         intent.putExtra("name", arrData.get(0).getMovie_name());
+                         intent.putExtra("pic", arrData.get(0).getMovie_img());
+@@ -566,7 +566,7 @@
+                 @Override
+                 public void onClick(View v) {
+ 
+-                    if (true) {
++                    if (dataStore.checkUser()) {
+                         Intent intent = new Intent(MainActivity.this, MovieDetailActivity.class);
+                         intent.putExtra("name", arrData.get(0).getMovie_name());
+                         intent.putExtra("pic", arrData.get(0).getMovie_img());
+@@ -587,7 +587,7 @@
+                 @Override
+                 public void onClick(View v) {
+ 
+-                    if (true) {
++                    if (dataStore.checkUser()) {
+                         Intent intent = new Intent(MainActivity.this, MovieDetailActivity.class);
+                         intent.putExtra("name", arrData.get(1).getMovie_name());
+                         intent.putExtra("pic", arrData.get(1).getMovie_img());
+@@ -617,7 +617,7 @@
+                 @Override
+                 public void onClick(View v) {
+ 
+-                    if (true) {
++                    if (dataStore.checkUser()) {
+                         Intent intent = new Intent(MainActivity.this, MovieDetailActivity.class);
+                         intent.putExtra("name", arrData.get(0).getMovie_name());
+                         intent.putExtra("pic", arrData.get(0).getMovie_img());
+@@ -639,7 +639,7 @@
+                 @Override
+                 public void onClick(View v) {
+ 
+-                    if (true) {
++                    if (dataStore.checkUser()) {
+                         Intent intent = new Intent(MainActivity.this, MovieDetailActivity.class);
+                         intent.putExtra("name", arrData.get(1).getMovie_name());
+                         intent.putExtra("pic", arrData.get(1).getMovie_img());
+Index: app/src/main/res/layout/activity_news.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_news.xml	(date 1498966998000)
++++ app/src/main/res/layout/activity_news.xml	(revision )
+@@ -7,7 +7,7 @@
+     android:padding="10dp"
+     android:weightSum="3"
+     android:background="#000000"
+-    tools:context="com.royle.beartv2.NewsActivity" >
++    tools:context="com.royle.play4k.NewsActivity" >
+ 
+     <ImageView
+         android:id="@+id/img_news"
+Index: app/src/main/java/com/royle/beartv2/WifiConnections.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/WifiConnections.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/WifiConnections.java	(revision )
+@@ -1,4 +1,4 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ import android.app.Activity;
+ import android.net.ConnectivityManager;
+\ No newline at end of file
+Index: app/build/generated/source/buildConfig/debug/com/royle/beartv2/BuildConfig.java
+===================================================================
+--- app/build/generated/source/buildConfig/debug/com/royle/beartv2/BuildConfig.java	(date 1498966998000)
++++ app/build/generated/source/buildConfig/debug/com/royle/play4k/BuildConfig.java	(revision )
+@@ -1,11 +1,11 @@
+ /**
+  * Automatically generated file. DO NOT MODIFY
+  */
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ public final class BuildConfig {
+   public static final boolean DEBUG = Boolean.parseBoolean("true");
+-  public static final String APPLICATION_ID = "com.royle.beartv2";
++  public static final String APPLICATION_ID = "com.royle.play4k";
+   public static final String BUILD_TYPE = "debug";
+   public static final String FLAVOR = "";
+   public static final int VERSION_CODE = 3;
+Index: app/src/main/java/iptv/TvCategoryActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/iptv/TvCategoryActivity.java	(date 1498966998000)
++++ app/src/main/java/iptv/TvCategoryActivity.java	(revision )
+@@ -21,9 +21,9 @@
+ import android.widget.TextView;
+ import android.widget.Toast;
+ 
+-import com.royle.beartv2.Mxplayer;
+-import com.royle.beartv2.R;
+-import com.royle.beartv2.SearchActivity;
++import com.royle.play4k.Mxplayer;
++import com.royle.play4k.R;
++import com.royle.play4k.SearchActivity;
+ 
+ import org.json.JSONObject;
+ 
+@@ -270,7 +270,7 @@
+             super.onPostExecute(result);
+             progressDialog.dismiss();
+ 
+-            if (true) {
++            if (check) {
+ 
+                 Log.d(tag, "onPost Working");
+ 
+@@ -280,39 +280,14 @@
+                     Log.d(tag, "in try link ==> " + link);
+                     Log.d(tag, "in try otpfn ==> " + otpfn);
+ 
+-                    if (playerInstalledOrNot("com.telebreeze.plugin")) {
+-                        //////added  by  tony
+-                        Intent intent = new Intent();
+-                        ComponentName comp = new ComponentName("com.telebreeze.plugin", "com.telebreeze.plugin.MainActivity");
+ 
+-                        intent.setComponent(comp);
+-                        intent.setAction(Intent.ACTION_VIEW);
+-                        intent.setData(Uri.parse(link + "&signature_id=" + otpfn));
+-                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+-                        intent.putExtra("SourceFrom", "Network");
+-                        intent.putExtra("secure_uri", true);
+-                        intent.putExtra("video_zoom", 0);
+-                        startActivity(intent);
+ 
+-
+-                    } else if (playerInstalledOrNot("com.mxtech.videoplayer.pro")) {
++                    if (playerInstalledOrNot("com.mxtech.videoplayer.pro")) {
+                         //////added  by  tony
+                         Intent intent = new Intent();
+                         ComponentName comp = new ComponentName("com.mxtech.videoplayer.pro", "com.mxtech.videoplayer.ActivityScreen");
+                         intent.setComponent(comp);
+                         intent.setAction(Intent.ACTION_VIEW);
+-
+-                        if (otpfn.length() == 0) {
+-                            //otpfn = null
+-                            String s = "http://go.bear-tv.com/4k/iptv/playlist.m3v8?channel_id=1037&signature_id=0c06134caad9d753c68e43f35aadb72d37f802e5d5ac7e0177cc7d08d4854c316608fd4063982f68a1a96895c20828f8";
+-                            intent.setData(Uri.parse(s));
+-
+-                        } else {
+-                            intent.setData(Uri.parse(link + "&signature_id=" + otpfn));
+-                            Log.d(tag, "URL ==> " + (link + "&signature_id=" + otpfn));
+-                        }
+-
+-
+                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                         intent.putExtra("SourceFrom", "Network");
+                         intent.putExtra("secure_uri", true);
+Index: app/src/main/java/ebook/EbookCategoryActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/ebook/EbookCategoryActivity.java	(date 1498966998000)
++++ app/src/main/java/ebook/EbookCategoryActivity.java	(revision )
+@@ -15,8 +15,8 @@
+ import android.widget.ImageButton;
+ import android.widget.TextView;
+ 
+-import com.royle.beartv2.R;
+-import com.royle.beartv2.SearchActivity;
++import com.royle.play4k.R;
++import com.royle.play4k.SearchActivity;
+ 
+ import org.json.JSONException;
+ import org.json.JSONObject;
+Index: app/src/main/res/menu/series.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/series.xml	(date 1498966998000)
++++ app/src/main/res/menu/series.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.SeriesActivity" >
++    tools:context="com.royle.play4k.SeriesActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1498966998000)
++++ .idea/modules.xml	(revision )
+@@ -4,7 +4,7 @@
+     <modules>
+       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+       <module fileurl="file://$PROJECT_DIR$/librarySlider/librarySlider.iml" filepath="$PROJECT_DIR$/librarySlider/librarySlider.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/patayatvok_1july.iml" filepath="$PROJECT_DIR$/patayatvok_1july.iml" />
++      <module fileurl="file://$PROJECT_DIR$/patayatvok_3JULY_3.iml" filepath="$PROJECT_DIR$/patayatvok_3JULY_3.iml" />
+       <module fileurl="file://$PROJECT_DIR$/universal-image-loader-1.9.5/universal-image-loader-1.9.5.iml" filepath="$PROJECT_DIR$/universal-image-loader-1.9.5/universal-image-loader-1.9.5.iml" />
+     </modules>
+   </component>
+\ No newline at end of file
+Index: app/src/main/res/layout-large/webview_sport.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-large/webview_sport.xml	(date 1498966998000)
++++ app/src/main/res/layout-large/webview_sport.xml	(revision )
+@@ -2,7 +2,7 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    tools:context="com.royle.beartv2.SportActivity" >
++    tools:context="com.royle.play4k.SportActivity" >
+ 
+     <WebView
+         android:id="@+id/webview_sport"
+Index: patayatvok_1july.iml
+===================================================================
+--- patayatvok_1july.iml	(date 1498966998000)
++++ patayatvok_1july.iml	(date 1498966998000)
+@@ -1,19 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module external.linked.project.id="patayatvok_1july" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+-  <component name="FacetManager">
+-    <facet type="java-gradle" name="Java-Gradle">
+-      <configuration>
+-        <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/build" />
+-        <option name="BUILDABLE" value="false" />
+-      </configuration>
+-    </facet>
+-  </component>
+-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: app/src/main/res/layout-small/webview_sport.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-small/webview_sport.xml	(date 1498966998000)
++++ app/src/main/res/layout-small/webview_sport.xml	(revision )
+@@ -2,7 +2,7 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    tools:context="com.royle.beartv2.SportActivity" >
++    tools:context="com.royle.play4k.SportActivity" >
+ 
+     <WebView
+         android:id="@+id/webview_sport"
+Index: app/build/generated/source/r/debug/com/royle/beartv2/R.java
+===================================================================
+--- app/build/generated/source/r/debug/com/royle/beartv2/R.java	(date 1498966998000)
++++ app/build/generated/source/r/debug/com/royle/play4k/R.java	(revision )
+@@ -5,7 +5,7 @@
+  * should not be modified by hand.
+  */
+ 
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ public final class R {
+     public static final class anim {
+@@ -647,28 +647,28 @@
+            <colgroup align="left" />
+            <colgroup align="left" />
+            <tr><th>Attribute</th><th>Description</th></tr>
+-           <tr><td><code>{@link #PagerIndicator_padding_bottom com.royle.beartv2:padding_bottom}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_padding_left com.royle.beartv2:padding_left}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_padding_right com.royle.beartv2:padding_right}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_padding_top com.royle.beartv2:padding_top}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_selected_color com.royle.beartv2:selected_color}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_selected_drawable com.royle.beartv2:selected_drawable}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_selected_height com.royle.beartv2:selected_height}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_selected_padding_bottom com.royle.beartv2:selected_padding_bottom}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_selected_padding_left com.royle.beartv2:selected_padding_left}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_selected_padding_right com.royle.beartv2:selected_padding_right}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_selected_padding_top com.royle.beartv2:selected_padding_top}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_selected_width com.royle.beartv2:selected_width}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_shape com.royle.beartv2:shape}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_unselected_color com.royle.beartv2:unselected_color}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_unselected_drawable com.royle.beartv2:unselected_drawable}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_unselected_height com.royle.beartv2:unselected_height}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_unselected_padding_bottom com.royle.beartv2:unselected_padding_bottom}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_unselected_padding_left com.royle.beartv2:unselected_padding_left}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_unselected_padding_right com.royle.beartv2:unselected_padding_right}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_unselected_padding_top com.royle.beartv2:unselected_padding_top}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_unselected_width com.royle.beartv2:unselected_width}</code></td><td></td></tr>
+-           <tr><td><code>{@link #PagerIndicator_visibility com.royle.beartv2:visibility}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_padding_bottom com.royle.play4k:padding_bottom}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_padding_left com.royle.play4k:padding_left}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_padding_right com.royle.play4k:padding_right}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_padding_top com.royle.play4k:padding_top}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_selected_color com.royle.play4k:selected_color}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_selected_drawable com.royle.play4k:selected_drawable}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_selected_height com.royle.play4k:selected_height}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_selected_padding_bottom com.royle.play4k:selected_padding_bottom}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_selected_padding_left com.royle.play4k:selected_padding_left}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_selected_padding_right com.royle.play4k:selected_padding_right}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_selected_padding_top com.royle.play4k:selected_padding_top}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_selected_width com.royle.play4k:selected_width}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_shape com.royle.play4k:shape}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_unselected_color com.royle.play4k:unselected_color}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_unselected_drawable com.royle.play4k:unselected_drawable}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_unselected_height com.royle.play4k:unselected_height}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_unselected_padding_bottom com.royle.play4k:unselected_padding_bottom}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_unselected_padding_left com.royle.play4k:unselected_padding_left}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_unselected_padding_right com.royle.play4k:unselected_padding_right}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_unselected_padding_top com.royle.play4k:unselected_padding_top}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_unselected_width com.royle.play4k:unselected_width}</code></td><td></td></tr>
++           <tr><td><code>{@link #PagerIndicator_visibility com.royle.play4k:visibility}</code></td><td></td></tr>
+            </table>
+            @see #PagerIndicator_padding_bottom
+            @see #PagerIndicator_padding_left
+@@ -702,7 +702,7 @@
+             0x7f010014, 0x7f010015
+         };
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#padding_bottom}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#padding_bottom}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -714,11 +714,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:padding_bottom
++          @attr name com.royle.play4k:padding_bottom
+         */
+         public static final int PagerIndicator_padding_bottom = 13;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#padding_left}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#padding_left}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -730,11 +730,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:padding_left
++          @attr name com.royle.play4k:padding_left
+         */
+         public static final int PagerIndicator_padding_left = 10;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#padding_right}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#padding_right}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -746,11 +746,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:padding_right
++          @attr name com.royle.play4k:padding_right
+         */
+         public static final int PagerIndicator_padding_right = 11;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#padding_top}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#padding_top}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -762,11 +762,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:padding_top
++          @attr name com.royle.play4k:padding_top
+         */
+         public static final int PagerIndicator_padding_top = 12;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#selected_color}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#selected_color}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -777,21 +777,21 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:selected_color
++          @attr name com.royle.play4k:selected_color
+         */
+         public static final int PagerIndicator_selected_color = 2;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#selected_drawable}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#selected_drawable}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+-          @attr name com.royle.beartv2:selected_drawable
++          @attr name com.royle.play4k:selected_drawable
+         */
+         public static final int PagerIndicator_selected_drawable = 4;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#selected_height}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#selected_height}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -803,11 +803,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:selected_height
++          @attr name com.royle.play4k:selected_height
+         */
+         public static final int PagerIndicator_selected_height = 7;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#selected_padding_bottom}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#selected_padding_bottom}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -819,11 +819,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:selected_padding_bottom
++          @attr name com.royle.play4k:selected_padding_bottom
+         */
+         public static final int PagerIndicator_selected_padding_bottom = 17;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#selected_padding_left}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#selected_padding_left}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -835,11 +835,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:selected_padding_left
++          @attr name com.royle.play4k:selected_padding_left
+         */
+         public static final int PagerIndicator_selected_padding_left = 14;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#selected_padding_right}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#selected_padding_right}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -851,11 +851,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:selected_padding_right
++          @attr name com.royle.play4k:selected_padding_right
+         */
+         public static final int PagerIndicator_selected_padding_right = 15;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#selected_padding_top}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#selected_padding_top}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -867,11 +867,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:selected_padding_top
++          @attr name com.royle.play4k:selected_padding_top
+         */
+         public static final int PagerIndicator_selected_padding_top = 16;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#selected_width}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#selected_width}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -883,11 +883,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:selected_width
++          @attr name com.royle.play4k:selected_width
+         */
+         public static final int PagerIndicator_selected_width = 6;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#shape}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#shape}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -900,11 +900,11 @@
+ <tr><td><code>oval</code></td><td>0</td><td></td></tr>
+ <tr><td><code>rect</code></td><td>1</td><td></td></tr>
+ </table>
+-          @attr name com.royle.beartv2:shape
++          @attr name com.royle.play4k:shape
+         */
+         public static final int PagerIndicator_shape = 1;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#unselected_color}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#unselected_color}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -915,21 +915,21 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:unselected_color
++          @attr name com.royle.play4k:unselected_color
+         */
+         public static final int PagerIndicator_unselected_color = 3;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#unselected_drawable}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#unselected_drawable}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+-          @attr name com.royle.beartv2:unselected_drawable
++          @attr name com.royle.play4k:unselected_drawable
+         */
+         public static final int PagerIndicator_unselected_drawable = 5;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#unselected_height}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#unselected_height}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -941,11 +941,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:unselected_height
++          @attr name com.royle.play4k:unselected_height
+         */
+         public static final int PagerIndicator_unselected_height = 9;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#unselected_padding_bottom}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#unselected_padding_bottom}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -957,11 +957,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:unselected_padding_bottom
++          @attr name com.royle.play4k:unselected_padding_bottom
+         */
+         public static final int PagerIndicator_unselected_padding_bottom = 21;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#unselected_padding_left}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#unselected_padding_left}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -973,11 +973,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:unselected_padding_left
++          @attr name com.royle.play4k:unselected_padding_left
+         */
+         public static final int PagerIndicator_unselected_padding_left = 18;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#unselected_padding_right}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#unselected_padding_right}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -989,11 +989,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:unselected_padding_right
++          @attr name com.royle.play4k:unselected_padding_right
+         */
+         public static final int PagerIndicator_unselected_padding_right = 19;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#unselected_padding_top}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#unselected_padding_top}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -1005,11 +1005,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:unselected_padding_top
++          @attr name com.royle.play4k:unselected_padding_top
+         */
+         public static final int PagerIndicator_unselected_padding_top = 20;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#unselected_width}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#unselected_width}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -1021,11 +1021,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:unselected_width
++          @attr name com.royle.play4k:unselected_width
+         */
+         public static final int PagerIndicator_unselected_width = 8;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#visibility}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#visibility}
+           attribute's value can be found in the {@link #PagerIndicator} array.
+ 
+ 
+@@ -1038,7 +1038,7 @@
+ <tr><td><code>visible</code></td><td>0</td><td></td></tr>
+ <tr><td><code>invisible</code></td><td>1</td><td></td></tr>
+ </table>
+-          @attr name com.royle.beartv2:visibility
++          @attr name com.royle.play4k:visibility
+         */
+         public static final int PagerIndicator_visibility = 0;
+         /** Attributes that can be used with a SliderLayout.
+@@ -1047,10 +1047,10 @@
+            <colgroup align="left" />
+            <colgroup align="left" />
+            <tr><th>Attribute</th><th>Description</th></tr>
+-           <tr><td><code>{@link #SliderLayout_auto_cycle com.royle.beartv2:auto_cycle}</code></td><td></td></tr>
+-           <tr><td><code>{@link #SliderLayout_indicator_visibility com.royle.beartv2:indicator_visibility}</code></td><td></td></tr>
+-           <tr><td><code>{@link #SliderLayout_pager_animation com.royle.beartv2:pager_animation}</code></td><td></td></tr>
+-           <tr><td><code>{@link #SliderLayout_pager_animation_span com.royle.beartv2:pager_animation_span}</code></td><td></td></tr>
++           <tr><td><code>{@link #SliderLayout_auto_cycle com.royle.play4k:auto_cycle}</code></td><td></td></tr>
++           <tr><td><code>{@link #SliderLayout_indicator_visibility com.royle.play4k:indicator_visibility}</code></td><td></td></tr>
++           <tr><td><code>{@link #SliderLayout_pager_animation com.royle.play4k:pager_animation}</code></td><td></td></tr>
++           <tr><td><code>{@link #SliderLayout_pager_animation_span com.royle.play4k:pager_animation_span}</code></td><td></td></tr>
+            </table>
+            @see #SliderLayout_auto_cycle
+            @see #SliderLayout_indicator_visibility
+@@ -1061,7 +1061,7 @@
+             0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019
+         };
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#auto_cycle}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#auto_cycle}
+           attribute's value can be found in the {@link #SliderLayout} array.
+ 
+ 
+@@ -1071,11 +1071,11 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:auto_cycle
++          @attr name com.royle.play4k:auto_cycle
+         */
+         public static final int SliderLayout_auto_cycle = 1;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#indicator_visibility}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#indicator_visibility}
+           attribute's value can be found in the {@link #SliderLayout} array.
+ 
+ 
+@@ -1088,11 +1088,11 @@
+ <tr><td><code>visible</code></td><td>0</td><td></td></tr>
+ <tr><td><code>invisible</code></td><td>1</td><td></td></tr>
+ </table>
+-          @attr name com.royle.beartv2:indicator_visibility
++          @attr name com.royle.play4k:indicator_visibility
+         */
+         public static final int SliderLayout_indicator_visibility = 0;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#pager_animation}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#pager_animation}
+           attribute's value can be found in the {@link #SliderLayout} array.
+ 
+ 
+@@ -1119,11 +1119,11 @@
+ <tr><td><code>ZoomOutSlide</code></td><td>14</td><td></td></tr>
+ <tr><td><code>ZoomOut</code></td><td>15</td><td></td></tr>
+ </table>
+-          @attr name com.royle.beartv2:pager_animation
++          @attr name com.royle.play4k:pager_animation
+         */
+         public static final int SliderLayout_pager_animation = 2;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#pager_animation_span}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#pager_animation_span}
+           attribute's value can be found in the {@link #SliderLayout} array.
+ 
+ 
+@@ -1133,7 +1133,7 @@
+ theme attribute (in the form
+ "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+ containing a value of this type.
+-          @attr name com.royle.beartv2:pager_animation_span
++          @attr name com.royle.play4k:pager_animation_span
+         */
+         public static final int SliderLayout_pager_animation_span = 3;
+         /** Attributes that can be used with a Themes.
+@@ -1142,8 +1142,8 @@
+            <colgroup align="left" />
+            <colgroup align="left" />
+            <tr><th>Attribute</th><th>Description</th></tr>
+-           <tr><td><code>{@link #Themes_PagerIndicatorStyle com.royle.beartv2:PagerIndicatorStyle}</code></td><td></td></tr>
+-           <tr><td><code>{@link #Themes_SliderStyle com.royle.beartv2:SliderStyle}</code></td><td></td></tr>
++           <tr><td><code>{@link #Themes_PagerIndicatorStyle com.royle.play4k:PagerIndicatorStyle}</code></td><td></td></tr>
++           <tr><td><code>{@link #Themes_SliderStyle com.royle.play4k:SliderStyle}</code></td><td></td></tr>
+            </table>
+            @see #Themes_PagerIndicatorStyle
+            @see #Themes_SliderStyle
+@@ -1152,23 +1152,23 @@
+             0x7f01001a, 0x7f01001b
+         };
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#PagerIndicatorStyle}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#PagerIndicatorStyle}
+           attribute's value can be found in the {@link #Themes} array.
+ 
+ 
+           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+-          @attr name com.royle.beartv2:PagerIndicatorStyle
++          @attr name com.royle.play4k:PagerIndicatorStyle
+         */
+         public static final int Themes_PagerIndicatorStyle = 1;
+         /**
+-          <p>This symbol is the offset where the {@link com.royle.beartv2.R.attr#SliderStyle}
++          <p>This symbol is the offset where the {@link com.royle.play4k.R.attr#SliderStyle}
+           attribute's value can be found in the {@link #Themes} array.
+ 
+ 
+           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+-          @attr name com.royle.beartv2:SliderStyle
++          @attr name com.royle.play4k:SliderStyle
+         */
+         public static final int Themes_SliderStyle = 0;
+     };
+Index: app/src/main/java/ebook/EbookActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/ebook/EbookActivity.java	(date 1498966998000)
++++ app/src/main/java/ebook/EbookActivity.java	(revision )
+@@ -20,9 +20,9 @@
+ import android.widget.TextView;
+ import android.widget.Toast;
+ 
+-import com.royle.beartv2.MainActivity;
+-import com.royle.beartv2.R;
+-import com.royle.beartv2.SearchActivity;
++import com.royle.play4k.MainActivity;
++import com.royle.play4k.R;
++import com.royle.play4k.SearchActivity;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/java/com/royle/beartv2/WebViewPayPalActivity.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/WebViewPayPalActivity.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/WebViewPayPalActivity.java	(revision )
+@@ -1,4 +1,4 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ import android.app.Activity;
+ import android.os.Bundle;
+Index: app/src/main/java/user/SupportActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/user/SupportActivity.java	(date 1498966998000)
++++ app/src/main/java/user/SupportActivity.java	(revision )
+@@ -9,7 +9,7 @@
+ import android.view.View.OnClickListener;
+ import android.widget.Button;
+ 
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ 
+ public class SupportActivity extends Activity {
+Index: app/src/main/res/layout-xlarge/activity_web_view_pay_pal.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-xlarge/activity_web_view_pay_pal.xml	(date 1498966998000)
++++ app/src/main/res/layout-xlarge/activity_web_view_pay_pal.xml	(revision )
+@@ -3,7 +3,7 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    tools:context="com.royle.beartv2.WebViewPayPalActivity">
++    tools:context="com.royle.play4k.WebViewPayPalActivity">
+ 
+     <WebView
+         android:layout_width="match_parent"
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(date 1498966998000)
++++ app/src/main/res/values/strings.xml	(revision )
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+ 
+-    <string name="app_name">doo4k</string>
++    <string name="app_name">play4k</string>
+     <string name="hello_world">Hello world!</string>
+     <string name="action_settings">Settings</string>
+     <string name="title_activity_refill">RefillActivity</string>
+@@ -19,7 +19,7 @@
+     <string name="title_activity_web_view_ebook">WebViewEbookActivity</string>
+     <string name="title_activity_ebook_category">EbookCategoryActivity</string>
+     <string name="html"><![CDATA[]]></string>
+-    <string name="version">1.1</string>
++    <string name="version">3.0</string>
+     <string name="cancel">ยกเลิก</string>
+     <string name="accept">ตกลง</string>
+ 
+Index: app/src/main/res/menu/ip_tv.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/ip_tv.xml	(date 1498966998000)
++++ app/src/main/res/menu/ip_tv.xml	(revision )
+@@ -1,6 +1,6 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+-    tools:context="com.royle.beartv2.IpTvActivity" >
++    tools:context="com.royle.play4k.IpTvActivity" >
+ 
+     <item
+         android:id="@+id/action_settings"
+Index: app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml	(date 1498966998000)
++++ app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml	(revision )
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+-    package="com.royle.beartv2.test">
++    package="com.royle.play4k.test">
+ 
+     <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="19" />
+ 
+@@ -9,8 +9,8 @@
+     </application>
+ 
+     <instrumentation android:name="android.test.InstrumentationTestRunner"
+-                     android:targetPackage="com.royle.beartv2"
++                     android:targetPackage="com.royle.play4k"
+                      android:handleProfiling="false"
+                      android:functionalTest="false"
+-                     android:label="Tests for com.royle.beartv2"/>
++                     android:label="Tests for com.royle.play4k"/>
+ </manifest>
+Index: app/src/main/java/com/royle/beartv2/SplashScreen.java
+===================================================================
+--- app/src/main/java/com/royle/beartv2/SplashScreen.java	(date 1498966998000)
++++ app/src/main/java/com/royle/play4k/SplashScreen.java	(revision )
+@@ -1,4 +1,4 @@
+-package com.royle.beartv2;
++package com.royle.play4k;
+ 
+ import android.app.Activity;
+ import android.app.AlertDialog;
+@@ -29,10 +29,10 @@
+ 
+     //Explicit
+     private final static int UNINSTALL_REQUEST_CODE = 0;
+-    private final static String m_sPackageToUninstall = "com.cmiptv.app"; //old client to be uninstall
++    private final static String m_sPackageToUninstall = "com.fwiptv.app"; //old client to be uninstall
+     private SharedPreferences appSettings;
+-    private final static String appname = "beartv";
+-    private final static String Shortcutname = "beartv";
++    private final static String appname = "play4k";
++    private final static String Shortcutname = "play4k";
+     static final int DIALOG_ERROR_CONNECTION = 1;
+ 
+ 
+Index: app/src/main/java/ebook/EbookCategoryAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/ebook/EbookCategoryAdapter.java	(date 1498966998000)
++++ app/src/main/java/ebook/EbookCategoryAdapter.java	(revision )
+@@ -15,7 +15,7 @@
+ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
+-import com.royle.beartv2.R;
++import com.royle.play4k.R;
+ 
+ import java.util.ArrayList;
+ 
+Index: app/src/main/res/layout-large/activity_download.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout-large/activity_download.xml	(date 1498966998000)
++++ app/src/main/res/layout-large/activity_download.xml	(revision )
+@@ -7,7 +7,7 @@
+ android:paddingRight="@dimen/activity_horizontal_margin"
+ android:paddingTop="@dimen/activity_vertical_margin"
+ android:background="#4D000000"
+-tools:context="com.royle.beartv2.DownloadActivity">
++tools:context="com.royle.play4k.DownloadActivity">
+ 
+ <LinearLayout
+     android:layout_width="match_parent"
+Index: build/intermediates/dex-cache/cache.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- build/intermediates/dex-cache/cache.xml	(date 1498966998000)
++++ build/intermediates/dex-cache/cache.xml	(revision )
+@@ -12,15 +12,42 @@
+     </item>
+     <item
+         is-multidex="true"
+-        jar="F:\4k\patayatvok_1july\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
++        jar="F:\4k\patayatvok_3JULY\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+         jumboMode="true"
+         optimize="true"
+         revision="25.0.0"
+-        sha1="ae208c9ecc65da48d276edafe786c0707058980e">
+-        <dex dex="F:\4k\patayatvok_1july\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a97f60953aa7cae3c7ff26cfd3550217e11ab015\classes.dex" />
++        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
++        <dex dex="F:\4k\patayatvok_3JULY\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_700027c972fbf47bc5641257fd71fe79f8b57a6c\classes.dex" />
+     </item>
+     <item
+         is-multidex="true"
++        jar="F:\4k\patayatvok_3JULY_3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
++        jumboMode="true"
++        optimize="true"
++        revision="25.0.0"
++        sha1="12c8ea87cfc2017c711d1dcaf35a603e9face0e6">
++        <dex dex="F:\4k\patayatvok_3JULY_3\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0ba3cf210830e486e2fad73bd659e08e8fabd27a\classes.dex" />
++    </item>
++    <item
++        is-multidex="true"
++        jar="F:\4k\patayatvok_3JULY_2\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
++        jumboMode="true"
++        optimize="true"
++        revision="25.0.0"
++        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
++        <dex dex="F:\4k\patayatvok_3JULY_2\app\build\intermediates\transforms\dex\debug\folders\1000\8\picasso-2.3.3_5b30842c06038fdfa48b358dc3eb0c7c4f0c1efa\classes.dex" />
++    </item>
++    <item
++        is-multidex="false"
++        jar="F:\4k\patayatvok_3JULY_2\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
++        jumboMode="false"
++        optimize="true"
++        revision="25.0.0"
++        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
++        <dex dex="F:\4k\patayatvok_3JULY_2\app\build\intermediates\pre-dexed\release\picasso-2.3.3_5b30842c06038fdfa48b358dc3eb0c7c4f0c1efa.jar" />
++    </item>
++    <item
++        is-multidex="true"
+         jar="F:\4k\patayatvok_1july\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+         jumboMode="true"
+         optimize="true"
+@@ -30,12 +57,165 @@
+     </item>
+     <item
+         is-multidex="true"
++        jar="F:\4k\patayatvok_3JULY\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
++        jumboMode="true"
++        optimize="true"
++        revision="25.0.0"
++        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
++        <dex dex="F:\4k\patayatvok_3JULY\app\build\intermediates\transforms\dex\debug\folders\1000\8\picasso-2.3.3_8d54faa06599f243b9fa19316c61cb391e406d17\classes.dex" />
++    </item>
++    <item
++        is-multidex="true"
++        jar="F:\4k\patayatvok_3JULY\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
++        jumboMode="true"
++        optimize="true"
++        revision="25.0.0"
++        sha1="49434912ee4104b99b7e0f08cb40261177c5ed4a">
++        <dex dex="F:\4k\patayatvok_3JULY\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_741166ffa8654958e3ca88786124b452697dbf26\classes.dex" />
++    </item>
++    <item
++        is-multidex="true"
++        jar="F:\4k\patayatvok_3JULY_2\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
++        jumboMode="true"
++        optimize="true"
++        revision="25.0.0"
++        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
++        <dex dex="F:\4k\patayatvok_3JULY_2\app\build\intermediates\transforms\dex\debug\folders\1000\8\NineOldAndroid-2.4.0_93fab78063028355179ca6f013320d2cd73ddd05\classes.dex" />
++    </item>
++    <item
++        is-multidex="false"
++        jar="F:\4k\patayatvok_3JULY_2\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
++        jumboMode="false"
++        optimize="true"
++        revision="25.0.0"
++        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
++        <dex dex="F:\4k\patayatvok_3JULY_2\app\build\intermediates\pre-dexed\release\NineOldAndroid-2.4.0_93fab78063028355179ca6f013320d2cd73ddd05.jar" />
++    </item>
++    <item
++        is-multidex="false"
++        jar="F:\4k\patayatvok_1july\librarySlider\build\intermediates\bundles\default\classes.jar"
++        jumboMode="false"
++        optimize="true"
++        revision="25.0.0"
++        sha1="2c5f76e7a6252220ceccb1c5b63d664ba52b078b">
++        <dex dex="F:\4k\patayatvok_1july\app\build\intermediates\pre-dexed\debug\classes_4e6608c5cfaa199d5df17fba3c3681f74102ed84.jar" />
++    </item>
++    <item
++        is-multidex="true"
++        jar="F:\4k\patayatvok_3JULY_3\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
++        jumboMode="true"
++        optimize="true"
++        revision="25.0.0"
++        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
++        <dex dex="F:\4k\patayatvok_3JULY_3\app\build\intermediates\transforms\dex\debug\folders\1000\8\NineOldAndroid-2.4.0_88eacf3611b473748aa3ce3005da2be472b821a7\classes.dex" />
++    </item>
++    <item
++        is-multidex="false"
++        jar="F:\4k\patayatvok_3JULY_2\universal-image-loader-1.9.5\universal-image-loader-1.9.5.jar"
++        jumboMode="false"
++        optimize="true"
++        revision="25.0.0"
++        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
++        <dex dex="F:\4k\patayatvok_3JULY_2\app\build\intermediates\pre-dexed\release\universal-image-loader-1.9.5_722355b8618778d546fb2eeed7429b4b647d6c80.jar" />
++    </item>
++    <item
++        is-multidex="true"
++        jar="F:\4k\patayatvok_1july\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
++        jumboMode="true"
++        optimize="true"
++        revision="25.0.0"
++        sha1="ceae77e458704b9ccda46fcc51b3daefb1f895f5">
++        <dex dex="F:\4k\patayatvok_1july\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a97f60953aa7cae3c7ff26cfd3550217e11ab015\classes.dex" />
++    </item>
++    <item
++        is-multidex="true"
++        jar="F:\4k\patayatvok_3JULY\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
++        jumboMode="true"
++        optimize="true"
++        revision="25.0.0"
++        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
++        <dex dex="F:\4k\patayatvok_3JULY\app\build\intermediates\transforms\dex\debug\folders\1000\8\NineOldAndroid-2.4.0_ed69f9c9f089dae4464b230c00a80ac4df1286c6\classes.dex" />
++    </item>
++    <item
++        is-multidex="true"
++        jar="F:\4k\patayatvok_3JULY_2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
++        jumboMode="true"
++        optimize="true"
++        revision="25.0.0"
++        sha1="4279c075114ad38ec0337388d444922dfd76209e">
++        <dex dex="F:\4k\patayatvok_3JULY_2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_be0dc9faa7d568096c3a4a2c89f2b081ed4df40a\classes.dex" />
++    </item>
++    <item
++        is-multidex="false"
+         jar="F:\4k\patayatvok_1july\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
++        jumboMode="false"
++        optimize="true"
++        revision="25.0.0"
++        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
++        <dex dex="F:\4k\patayatvok_1july\app\build\intermediates\pre-dexed\debug\picasso-2.3.3_64eaf30d04fe5c1328443a22737cd651ef198b74.jar" />
++    </item>
++    <item
++        is-multidex="false"
++        jar="F:\4k\patayatvok_1july\universal-image-loader-1.9.5\universal-image-loader-1.9.5.jar"
++        jumboMode="false"
++        optimize="true"
++        revision="25.0.0"
++        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
++        <dex dex="F:\4k\patayatvok_1july\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_5942aca5b896ac83371b6566d61cc6752af42e11.jar" />
++    </item>
++    <item
++        is-multidex="false"
++        jar="F:\4k\patayatvok_3JULY_2\librarySlider\build\intermediates\bundles\default\classes.jar"
++        jumboMode="false"
++        optimize="true"
++        revision="25.0.0"
++        sha1="2c5f76e7a6252220ceccb1c5b63d664ba52b078b">
++        <dex dex="F:\4k\patayatvok_3JULY_2\app\build\intermediates\pre-dexed\release\classes_26cb2bce92199dc4792f1e10183538401126a717.jar" />
++    </item>
++    <item
++        is-multidex="true"
++        jar="F:\4k\patayatvok_3JULY_2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+         jumboMode="true"
+         optimize="true"
+         revision="25.0.0"
++        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
++        <dex dex="F:\4k\patayatvok_3JULY_2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_eca755d4bec22623accf68d73f790c450dbab1f0\classes.dex" />
++    </item>
++    <item
++        is-multidex="true"
++        jar="F:\4k\patayatvok_1july\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
++        jumboMode="true"
++        optimize="true"
++        revision="25.0.0"
+         sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
+         <dex dex="F:\4k\patayatvok_1july\app\build\intermediates\transforms\dex\debug\folders\1000\8\picasso-2.3.3_64eaf30d04fe5c1328443a22737cd651ef198b74\classes.dex" />
++    </item>
++    <item
++        is-multidex="false"
++        jar="F:\4k\patayatvok_1july\librarySlider\build\intermediates\bundles\default\libs\NineOldAndroid-2.4.0.jar"
++        jumboMode="false"
++        optimize="true"
++        revision="25.0.0"
++        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
++        <dex dex="F:\4k\patayatvok_1july\app\build\intermediates\pre-dexed\debug\NineOldAndroid-2.4.0_80805e447492ef041d15f270e7cc5e12a486d8fb.jar" />
++    </item>
++    <item
++        is-multidex="true"
++        jar="F:\4k\patayatvok_3JULY_3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
++        jumboMode="true"
++        optimize="true"
++        revision="25.0.0"
++        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
++        <dex dex="F:\4k\patayatvok_3JULY_3\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_07646613e178185c22da32888790b50f8b02ecb9\classes.dex" />
++    </item>
++    <item
++        is-multidex="true"
++        jar="F:\4k\patayatvok_3JULY_3\librarySlider\build\intermediates\bundles\default\libs\picasso-2.3.3.jar"
++        jumboMode="true"
++        optimize="true"
++        revision="25.0.0"
++        sha1="4f2e6b6da46083dab659c8825417161a2a90cbee">
++        <dex dex="F:\4k\patayatvok_3JULY_3\app\build\intermediates\transforms\dex\debug\folders\1000\8\picasso-2.3.3_2e586b2454624eed933193675afbe520a745d046\classes.dex" />
+     </item>
+ 
+ </items>
